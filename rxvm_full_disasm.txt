@@ -1,0 +1,1902 @@
+=== Amazon.html ===
+0 payloads
+
+-e 
+
+
+=== Amazon_com_Shopping_Cart.html ===
+15 payloads
+
+========================================================================
+[0] 1344 bytes
+========================================================================
+v1 | 27 strings | 8 closures
+0003 | LOAD_STRINGS           27 strings: ['rx', 'Math', 'imul', 'done', 'value', 'length', 'then', 'oncomplete'...]
+0175 | STORE_LOCAL            L1 = L0[$"rx"]
+0182 | STORE_LOCAL            L2 = (L1['c'] || {})
+0192 | STORE_LOCAL            L3 = (L0['msCrypto'] || L0['crypto'])
+0219 | MAKE_NAMED_CLOSURE     L7 = fn@223 skip→+36
+0259 | MAKE_NAMED_CLOSURE     L8 = fn@263 skip→+135
+0398 | MAKE_NAMED_CLOSURE     L9 = fn@402 skip→+27
+0429 | MAKE_NAMED_CLOSURE     L10 = fn@433 skip→+190
+0623 | MAKE_NAMED_CLOSURE     L11 = fn@627 skip→+71
+0698 | MAKE_NAMED_CLOSURE     L12 = fn@702 skip→+148
+0850 | MAKE_NAMED_CLOSURE     L13 = fn@854 skip→+121
+0975 | MAKE_NAMED_CLOSURE     L14 = fn@979 skip→+263
+1242 | CALL_1                 L1[$"exec"](L12)
+1250 | PUSH_ACC
+1251 | PROP_SET               L1['ep'] = pop()
+1259 | CALL_1                 L1[$"exec"](L13)
+1267 | PUSH_ACC
+1268 | PROP_SET               L1['ep4'] = pop()
+1277 | CALL_1                 L1[$"exec"](L10)
+1285 | PUSH_ACC
+1286 | PROP_SET               L1['e4'] = pop()
+1294 | CALL_1                 L1[$"exec"](L8)
+1302 | PUSH_ACC
+1303 | PROP_SET               L1['h'] = pop()
+1310 | JMP_FALSE              if !((L1[$"rid"] && L1[$"sid"])) →+20
+1324 | CALL_1                 L1[$"exec"](L14)
+1332 | CALL_2                 acc(L1[$"sid"], L1[$"rid"])
+
+========================================================================
+[1] 871 bytes
+========================================================================
+v1 | 7 strings | 7 closures
+0003 | LOAD_STRINGS           7 strings: ['rx', 'done', 'value', 'length', 'pow', 'floor', 'round']
+0042 | STORE_LOCAL            L1 = L0[$"rx"]['exec']
+0056 | STORE_LOCAL            L2 = L0['Math']
+0067 | STORE_LOCAL            L3 = L0['Number']
+0080 | MAKE_NAMED_CLOSURE     L4 = fn@84 skip→+28
+0112 | MAKE_NAMED_CLOSURE     L5 = fn@116 skip→+16
+0132 | MAKE_NAMED_CLOSURE     L6 = fn@136 skip→+66
+0202 | MAKE_NAMED_CLOSURE     L7 = fn@206 skip→+78
+0284 | MAKE_NAMED_CLOSURE     L8 = fn@288 skip→+64
+0352 | MAKE_NAMED_CLOSURE     L9 = fn@356 skip→+240
+0596 | MAKE_NAMED_CLOSURE     L10 = fn@600 skip→+141
+0741 | CALL_1                 L1(L7)
+0746 | PUSH_ACC
+0747 | PROP_SET               L0[$"rx"]['sa'] = pop()
+0758 | CALL_1                 L1(L8)
+0763 | PUSH_ACC
+0764 | PROP_SET               L0[$"rx"]['sab'] = pop()
+0776 | CALL_1                 L1(L9)
+0781 | PUSH_ACC
+0782 | PROP_SET               L0[$"rx"]['ef16'] = pop()
+0795 | CALL_1                 L1(L10)
+0800 | PUSH_ACC
+0801 | PROP_SET               L0[$"rx"]['df16'] = pop()
+0814 | CALL_1                 L1(L4)
+0819 | PUSH_ACC
+0820 | PROP_SET               L0[$"rx"]['asum'] = pop()
+0833 | CALL_1                 L1(L5)
+0838 | PUSH_ACC
+0839 | PROP_SET               L0[$"rx"]['aavg'] = pop()
+0852 | CALL_1                 L1(L6)
+0857 | PUSH_ACC
+0858 | PROP_SET               L0[$"rx"]['astd'] = pop()
+
+========================================================================
+[2] 194 bytes
+========================================================================
+v1 | 1 strings | 1 closures
+0003 | LOAD_STRINGS           1 strings: ['rx']
+0008 | STORE_LOCAL            L1 = '<NONE>'
+0018 | STORE_LOCAL            L2 = 0
+0022 | MAKE_NAMED_CLOSURE     L3 = fn@26 skip→+74
+0100 | CALL_1                 L0[$"rx"]['exec'](L3)
+0115 | CALL_0                 acc()
+0117 | STORE_LOCAL            L4 = acc
+0120 | PROP_SET               L0[$"rx"]['fnp'] = L4
+0133 | PROP_SET               L0[$"rx"]['fnpb'] = [(L4 & 255), ((L4 >>> 8) & 255), ((L4 >>> 16) & 255), ((L4 >>> 24) & 255)]
+0180 | PROP_SET               L0[$"rx"]['fnpv'] = L2
+
+========================================================================
+[3] 717 bytes
+========================================================================
+v1 | 6 strings | 6 closures
+0003 | LOAD_STRINGS           6 strings: ['rx', 'exec', 'slice', 'e4', 'ef', 'sv']
+0028 | STORE_LOCAL            L1 = L0[$"rx"]
+0035 | STORE_LOCAL            L2 = L0['JSON']
+0046 | STORE_LOCAL            L3 = L0['Math']
+0057 | STORE_LOCAL            L4 = L0['localStorage']
+0076 | STORE_LOCAL            L5 = L0['Number']['isFinite']
+0100 | STORE_LOCAL            L6 = $"rx"
+0104 | STORE_LOCAL            L7 = L1['fnpv']
+0115 | STORE_LOCAL            L8 = L1['fnpb']
+0126 | STORE_LOCAL            L9 = 100
+0130 | STORE_LOCAL            L11 = []
+0133 | STORE_LOCAL            L12 = null
+0136 | MAKE_NAMED_CLOSURE     L13 = fn@140 skip→+155
+0295 | MAKE_NAMED_CLOSURE     L14 = fn@299 skip→+117
+0416 | MAKE_NAMED_CLOSURE     L15 = fn@420 skip→+57
+0477 | MAKE_NAMED_CLOSURE     L16 = fn@481 skip→+32
+0513 | MAKE_NAMED_CLOSURE     L17 = fn@517 skip→+126
+0643 | MAKE_NAMED_CLOSURE     L18 = fn@647 skip→+28
+0675 | PROP_SET               L1[$"sv"] = 0
+0682 | CALL_1                 L1[$"exec"](L18)
+0690 | PUSH_ACC
+0691 | PROP_SET               L1['sfe'] = pop()
+0700 | CALL_1                 L1[$"exec"](L13)
+0708 | PUSH_ACC
+0709 | PROP_SET               L1['gd'] = pop()
+
+========================================================================
+[4] 845 bytes
+========================================================================
+v1 | 10 strings | 9 closures
+0003 | LOAD_STRINGS           10 strings: ['webdriver', 'Object', 'keys', 'indexOf', 'done', 'value', 'Array', 'Symbol'...]
+0068 | STORE_LOCAL            L1 = 16
+0072 | STORE_LOCAL            L2 = 1
+0076 | STORE_LOCAL            L3 = (L0['navigator'] || {})
+0094 | STORE_LOCAL            L4 = (L0['document'] || {})
+0111 | MAKE_NAMED_CLOSURE     L5 = fn@115 skip→+19
+0134 | MAKE_NAMED_CLOSURE     L6 = fn@138 skip→+13
+0151 | MAKE_NAMED_CLOSURE     L7 = fn@155 skip→+47
+0202 | MAKE_NAMED_CLOSURE     L8 = fn@206 skip→+158
+0364 | MAKE_NAMED_CLOSURE     L9 = fn@368 skip→+32
+0400 | MAKE_NAMED_CLOSURE     L10 = fn@404 skip→+195
+0599 | MAKE_NAMED_CLOSURE     L11 = fn@603 skip→+35
+0638 | MAKE_NAMED_CLOSURE     L12 = fn@642 skip→+43
+0685 | STORE_LOCAL            L13 = [L12, L11, L10, L9, L8, L7, L6, L5]
+0705 | MAKE_NAMED_CLOSURE     L14 = fn@709 skip→+118
+0827 | CALL_2                 L0[$"rx"]['r'](L14, 'load')
+
+========================================================================
+[5] 615 bytes
+========================================================================
+v1 | 10 strings | 6 closures
+0003 | LOAD_STRINGS           10 strings: ['sfe', 'addEventListener', 'mousedown', 'mouseup', 'exec', 'removeEventListener', 'timeStamp', 'performance'...]
+0097 | STORE_LOCAL            L1 = 32
+0101 | STORE_LOCAL            L2 = 15
+0105 | STORE_LOCAL            L3 = {'capture': true, 'passive': true}
+0129 | STORE_LOCAL            L4 = 1000
+0134 | STORE_LOCAL            L5 = (L0['document'] || {})
+0151 | STORE_LOCAL            L6 = L0['Math']
+0162 | STORE_LOCAL            L7 = L0['rx']
+0171 | STORE_LOCAL            L8 = L0['setInterval']
+0189 | STORE_LOCAL            L9 = L0['clearInterval']
+0209 | STORE_LOCAL            L10 = true
+0212 | STORE_LOCAL            L11 = true
+0215 | STORE_LOCAL            L15 = 0
+0219 | STORE_LOCAL            L17 = []
+0222 | STORE_LOCAL            L18 = []
+0225 | MAKE_NAMED_CLOSURE     L19 = fn@229 skip→+102
+0331 | MAKE_NAMED_CLOSURE     L20 = fn@335 skip→+49
+0384 | MAKE_NAMED_CLOSURE     L21 = fn@388 skip→+36
+0424 | MAKE_NAMED_CLOSURE     L22 = fn@428 skip→+37
+0465 | MAKE_NAMED_CLOSURE     L23 = fn@469 skip→+22
+0491 | MAKE_NAMED_CLOSURE     L24 = fn@495 skip→+68
+0563 | CALL_1                 L7[$"exec"](L23)
+0571 | STORE_LOCAL            L12 = acc
+0574 | CALL_1                 L7[$"exec"](L24)
+0582 | STORE_LOCAL            L13 = acc
+0585 | CALL_2                 L7[$"r"](L20, 'load')
+0599 | CALL_2                 L7[$"r"](L22, 'unload')
+
+========================================================================
+[6] 936 bytes
+========================================================================
+v1 | 10 strings | 5 closures
+0003 | LOAD_STRINGS           10 strings: ['sa', 'concat', 'sfe', 'mousemove', 'exec', 'sab', 'ceil', 'push'...]
+0054 | STORE_LOCAL            L1 = 33
+0058 | STORE_LOCAL            L2 = 200
+0063 | STORE_LOCAL            L3 = 255
+0068 | STORE_LOCAL            L4 = {'capture': true, 'passive': true}
+0092 | STORE_LOCAL            L5 = 1000
+0097 | STORE_LOCAL            L6 = (L0['document'] || {})
+0114 | STORE_LOCAL            L7 = L0['Math']
+0125 | STORE_LOCAL            L8 = L0['rx']
+0134 | STORE_LOCAL            L9 = L0['setInterval']
+0152 | STORE_LOCAL            L10 = L0['clearInterval']
+0172 | STORE_LOCAL            L13 = true
+0175 | STORE_LOCAL            L14 = true
+0178 | STORE_LOCAL            L19 = 0
+0182 | STORE_LOCAL            L20 = []
+0185 | STORE_LOCAL            L21 = []
+0188 | STORE_LOCAL            L22 = []
+0191 | MAKE_NAMED_CLOSURE     L23 = fn@195 skip→+186
+0381 | MAKE_NAMED_CLOSURE     L24 = fn@385 skip→+52
+0437 | MAKE_NAMED_CLOSURE     L25 = fn@441 skip→+42
+0483 | MAKE_NAMED_CLOSURE     L26 = fn@487 skip→+53
+0540 | MAKE_NAMED_CLOSURE     L27 = fn@544 skip→+351
+0895 | CALL_1                 L8[$"exec"](L27)
+0903 | STORE_LOCAL            L11 = acc
+0906 | CALL_2                 L8[$"r"](L24, 'load')
+0920 | CALL_2                 L8[$"r"](L26, 'unload')
+
+========================================================================
+[7] 631 bytes
+========================================================================
+v1 | 5 strings | 5 closures
+0003 | LOAD_STRINGS           5 strings: ['rx', 'sfe', 'scroll', 'exec', 'r']
+0026 | STORE_LOCAL            L1 = 34
+0030 | STORE_LOCAL            L2 = 200
+0035 | STORE_LOCAL            L3 = 255
+0040 | STORE_LOCAL            L4 = {'capture': true, 'passive': true}
+0064 | STORE_LOCAL            L5 = 1000
+0069 | STORE_LOCAL            L6 = L0['Math']
+0080 | STORE_LOCAL            L7 = L0[$"rx"]
+0087 | STORE_LOCAL            L8 = L0['setInterval']
+0105 | STORE_LOCAL            L9 = L0['clearInterval']
+0125 | STORE_LOCAL            L10 = true
+0128 | STORE_LOCAL            L13 = true
+0131 | STORE_LOCAL            L17 = 0
+0135 | STORE_LOCAL            L18 = []
+0138 | STORE_LOCAL            L19 = []
+0141 | MAKE_NAMED_CLOSURE     L20 = fn@145 skip→+102
+0247 | MAKE_NAMED_CLOSURE     L21 = fn@251 skip→+52
+0303 | MAKE_NAMED_CLOSURE     L22 = fn@307 skip→+42
+0349 | MAKE_NAMED_CLOSURE     L23 = fn@353 skip→+43
+0396 | MAKE_NAMED_CLOSURE     L24 = fn@400 skip→+181
+0581 | CALL_1                 L0[$"rx"][$"exec"](L24)
+0592 | STORE_LOCAL            L11 = acc
+0595 | CALL_2                 L0[$"rx"][$"r"](L21, 'load')
+0612 | CALL_2                 L0[$"rx"][$"r"](L23, 'unload')
+
+========================================================================
+[8] 360 bytes
+========================================================================
+v1 | 4 strings | 1 closures
+0003 | LOAD_STRINGS           4 strings: ['rx', '|', 'parseInt', 'sfe']
+0023 | STORE_LOCAL            L1 = 35
+0027 | STORE_LOCAL            L2 = 'rx-pnt'
+0037 | STORE_LOCAL            L3 = 600
+0042 | STORE_LOCAL            L4 = L0[$"rx"]
+0049 | STORE_LOCAL            L5 = L0['localStorage']
+0068 | MAKE_NAMED_CLOSURE     L6 = fn@72 skip→+273
+0345 | CALL_2                 L4['r'](L6, 'load')
+
+========================================================================
+[9] 319 bytes
+========================================================================
+v1 | 2 strings | 1 closures
+0003 | LOAD_STRINGS           2 strings: ['rx', 'sfe']
+0012 | STORE_LOCAL            L1 = 48
+0016 | STORE_LOCAL            L2 = L0[$"rx"]
+0023 | STORE_LOCAL            L3 = L0[$"rx"]['ef16']
+0037 | MAKE_NAMED_CLOSURE     L4 = fn@41 skip→+260
+0301 | CALL_2                 L0[$"rx"]['r'](L4, 'load')
+
+========================================================================
+[10] 1026 bytes
+========================================================================
+v1 | 18 strings | 6 closures
+0003 | LOAD_STRINGS           18 strings: ['rx', 'M', 'weights', 'length', 'bias', 'forward', 'gamma', 'slice'...]
+0118 | STORE_LOCAL            L1 = L0['Math']
+0129 | STORE_LOCAL            L2 = L0[$"rx"]
+0136 | STORE_LOCAL            L3 = (L2['c'] || {})
+0146 | STORE_LOCAL            L4 = L0[$"rx"][$"M"]
+0156 | MAKE_NAMED_CLOSURE     L5 = fn@160 skip→+66
+0226 | MAKE_NAMED_CLOSURE     L6 = fn@230 skip→+199
+0429 | MAKE_NAMED_CLOSURE     L7 = fn@433 skip→+24
+0457 | MAKE_NAMED_CLOSURE     L8 = fn@461 skip→+24
+0485 | MAKE_NAMED_CLOSURE     L9 = fn@489 skip→+224
+0713 | MAKE_NAMED_CLOSURE     L10 = fn@717 skip→+215
+0932 | PROP_SET               L2[$"M"] = L4
+0939 | PROP_SET               L2['ML'] = L9
+0948 | PROP_SET               L9['specs'] = L10
+0960 | JMP_FALSE              if !(L3['DEBUG']) →+53
+0973 | PROP_SET               L9['Dense'] = L5
+0985 | PROP_SET               L9['BatchNorm'] = L6
+1001 | PROP_SET               L9['ReLU'] = L7
+1012 | PROP_SET               L9['Sigmoid'] = L8
+
+========================================================================
+[11] 2875 bytes
+========================================================================
+v1 | 13 strings | 3 closures
+0003 | LOAD_STRINGS           13 strings: ['id', 'features', 'done', 'value', 'model', 'type', 'dense', 'weights'...]
+0084 | STORE_LOCAL            L1 = L0['rx']
+0093 | STORE_LOCAL            L2 = (L1['c'] || {})
+0103 | STORE_LOCAL            L3 = 64
+0107 | STORE_LOCAL            L4 = 1100
+0112 | STORE_LOCAL            L5 = null
+0115 | STORE_LOCAL            L6 = ['sc_s', 'sc_m', 'sc_c', 'ms_s', 'ms_m', 'ms_c', 'ma_s', 'ma_m', ...+23]
+0301 | MAKE_CLOSURE           fn@304 skip→+46
+0350 | PUSH_ACC
+0351 | CALL_1                 L1['ML']['specs']({'layers': [{$"type": 'sigmoid'}, {$"bias": [-0.5526], $"weights": F[16], $"type": $"dense"}, {$"type": $"relu"}, {$"epsilon": 0.0010, $"weights": [0.0009, 0.0009, 0.0013, 0.0005, 0.0008, 0.0009, 0.0017, 0.0015, ...+56], $"type": $"batchnorm"}, {$"bias": [3.2538, 3.3813, 3.3859, 3.4833, 2.1993, 3.1210, 2.9207, 3.5262, ...+8], $"weights": F[256], $"type": $"dense"}, {$"type": $"relu"}, {$"epsilon": 0.0010, $"weights": [0.0084, 0.0076, 0.0036, 0.0132, 0.0085, 0.0048, 0.0127, 0.0110, ...+56], $"type": $"batchnorm"}, {$"bias": [0.0063, -0.0140, 0.0089, -0.0028, -0.0020, -0.0081, -0.0065, 0.0108, ...+8], $"weights": F[496], $"type": $"dense"}], 'featureNorms': [517.6075, 259.0503, 2000, 0, 0, 519.5626, 256.8917, 2000, ...+147]})
+2614 | PUSH_ACC
+2615 | EVAL                   {$"model": pop(), $"features": pop(), $"id": 0}
+2628 | PUSH_ACC
+2629 | EVAL                   [pop()]
+2633 | STORE_LOCAL            L7 = acc
+2636 | MAKE_NAMED_CLOSURE     L8 = fn@2640 skip→+167
+2807 | MAKE_NAMED_CLOSURE     L9 = fn@2811 skip→+23
+2834 | CALL_2                 L1['r'](L9, 'load')
+2849 | JMP_FALSE              if !(L2['DEBUG']) →+13
+2862 | PROP_SET               L1['__mdls'] = L7
+
+========================================================================
+[12] 673 bytes
+========================================================================
+v1 | 13 strings | 6 closures
+0003 | LOAD_STRINGS           13 strings: ['Math', 'removeEventListener', 'mousemove', 'click', 'scroll', 'tag', 'rx', 'count'...]
+0112 | STORE_LOCAL            L1 = (L0['document'] || {})
+0129 | STORE_LOCAL            L2 = (L0['ue'] || {})
+0140 | STORE_LOCAL            L3 = L0['uex']
+0150 | STORE_LOCAL            L4 = L0[$"Math"]['sqrt']
+0164 | STORE_LOCAL            L5 = L0[$"Math"]['pow']
+0177 | STORE_LOCAL            L6 = L0[$"Math"]['abs']
+0190 | STORE_LOCAL            L7 = {'passive': true, 'capture': true}
+0214 | STORE_LOCAL            L8 = 100
+0218 | STORE_LOCAL            L9 = 100
+0222 | STORE_LOCAL            L10 = null
+0225 | STORE_LOCAL            L11 = null
+0228 | STORE_LOCAL            L12 = null
+0231 | STORE_LOCAL            L13 = null
+0234 | STORE_LOCAL            L14 = null
+0237 | STORE_LOCAL            L15 = null
+0240 | STORE_LOCAL            L16 = 0
+0244 | STORE_LOCAL            L17 = 0
+0248 | MAKE_NAMED_CLOSURE     L18 = fn@252 skip→+41
+0293 | MAKE_NAMED_CLOSURE     L19 = fn@297 skip→+101
+0398 | MAKE_NAMED_CLOSURE     L20 = fn@402 skip→+26
+0428 | MAKE_NAMED_CLOSURE     L21 = fn@432 skip→+86
+0518 | MAKE_NAMED_CLOSURE     L22 = fn@522 skip→+46
+0568 | MAKE_NAMED_CLOSURE     L23 = fn@572 skip→+83
+0655 | CALL_2                 L0[$"rx"]['r'](L23, 'load')
+
+========================================================================
+[13] 304 bytes
+========================================================================
+v1 | 2 strings | 3 closures
+0003 | LOAD_STRINGS           2 strings: ['tag', 'rx']
+0012 | STORE_LOCAL            L1 = (L0['document'] || {})
+0029 | STORE_LOCAL            L2 = (L0['ue'] || {})
+0040 | STORE_LOCAL            L3 = L0['uex']
+0050 | MAKE_NAMED_CLOSURE     L4 = fn@54 skip→+79
+0133 | MAKE_NAMED_CLOSURE     L5 = fn@137 skip→+63
+0200 | MAKE_NAMED_CLOSURE     L6 = fn@204 skip→+82
+0286 | CALL_2                 L0[$"rx"]['r'](L6, 'load')
+
+========================================================================
+[14] 1193 bytes
+========================================================================
+v1 | 11 strings | 7 closures
+0003 | LOAD_STRINGS           11 strings: ['rx', 'RegExp', 'cookie', 'length', 'floor', 'cssRules', 'undefined', 'rules'...]
+0083 | STORE_LOCAL            L1 = L0['Math']
+0094 | STORE_LOCAL            L2 = L0[$"rx"]
+0101 | STORE_LOCAL            L3 = (L2['c'] || {})
+0111 | STORE_LOCAL            L4 = L0['document']
+0126 | STORE_LOCAL            L5 = L0['setInterval']
+0144 | STORE_LOCAL            L6 = L0['clearInterval']
+0164 | STORE_LOCAL            L7 = L0['setTimeout']
+0181 | NEW_1                  new L0[$"RegExp"]('^pplx-agent(?:-[0-9]+_[0-9]+)?-overlay(?:-(?:base|-stop-butt')
+0255 | STORE_LOCAL            L8 = acc
+0258 | NEW_2                  new L0[$"RegExp"]('i', 'pplx-agent(?:-[0-9]+_[0-9]+)?-overlay(?:-(?:base|stop-button')
+0332 | STORE_LOCAL            L9 = acc
+0335 | STORE_LOCAL            L10 = 'amzn-ctxv-id'
+0351 | STORE_LOCAL            L11 = 'amzn-css-id'
+0366 | STORE_LOCAL            L12 = (L3['cd_ri'] || 2000)
+0382 | STORE_LOCAL            L13 = (L3['cd_sc'] || 120000)
+0399 | MAKE_NAMED_CLOSURE     L15 = fn@403 skip→+82
+0485 | MAKE_NAMED_CLOSURE     L16 = fn@489 skip→+58
+0547 | MAKE_NAMED_CLOSURE     L17 = fn@551 skip→+184
+0735 | MAKE_NAMED_CLOSURE     L18 = fn@739 skip→+48
+0787 | MAKE_NAMED_CLOSURE     L19 = fn@791 skip→+336
+1127 | MAKE_NAMED_CLOSURE     L20 = fn@1131 skip→+12
+1143 | MAKE_NAMED_CLOSURE     L21 = fn@1147 skip→+28
+1175 | CALL_2                 L0[$"rx"]['r'](L21, 'load')
+
+-e 
+
+
+=== Amazon_com___dodge_dakota.html ===
+15 payloads
+
+========================================================================
+[0] 1344 bytes
+========================================================================
+v1 | 27 strings | 8 closures
+0003 | LOAD_STRINGS           27 strings: ['rx', 'Math', 'imul', 'done', 'value', 'length', 'then', 'oncomplete'...]
+0175 | STORE_LOCAL            L1 = L0[$"rx"]
+0182 | STORE_LOCAL            L2 = (L1['c'] || {})
+0192 | STORE_LOCAL            L3 = (L0['msCrypto'] || L0['crypto'])
+0219 | MAKE_NAMED_CLOSURE     L7 = fn@223 skip→+36
+0259 | MAKE_NAMED_CLOSURE     L8 = fn@263 skip→+135
+0398 | MAKE_NAMED_CLOSURE     L9 = fn@402 skip→+27
+0429 | MAKE_NAMED_CLOSURE     L10 = fn@433 skip→+190
+0623 | MAKE_NAMED_CLOSURE     L11 = fn@627 skip→+71
+0698 | MAKE_NAMED_CLOSURE     L12 = fn@702 skip→+148
+0850 | MAKE_NAMED_CLOSURE     L13 = fn@854 skip→+121
+0975 | MAKE_NAMED_CLOSURE     L14 = fn@979 skip→+263
+1242 | CALL_1                 L1[$"exec"](L12)
+1250 | PUSH_ACC
+1251 | PROP_SET               L1['ep'] = pop()
+1259 | CALL_1                 L1[$"exec"](L13)
+1267 | PUSH_ACC
+1268 | PROP_SET               L1['ep4'] = pop()
+1277 | CALL_1                 L1[$"exec"](L10)
+1285 | PUSH_ACC
+1286 | PROP_SET               L1['e4'] = pop()
+1294 | CALL_1                 L1[$"exec"](L8)
+1302 | PUSH_ACC
+1303 | PROP_SET               L1['h'] = pop()
+1310 | JMP_FALSE              if !((L1[$"rid"] && L1[$"sid"])) →+20
+1324 | CALL_1                 L1[$"exec"](L14)
+1332 | CALL_2                 acc(L1[$"sid"], L1[$"rid"])
+
+========================================================================
+[1] 871 bytes
+========================================================================
+v1 | 7 strings | 7 closures
+0003 | LOAD_STRINGS           7 strings: ['rx', 'done', 'value', 'length', 'pow', 'floor', 'round']
+0042 | STORE_LOCAL            L1 = L0[$"rx"]['exec']
+0056 | STORE_LOCAL            L2 = L0['Math']
+0067 | STORE_LOCAL            L3 = L0['Number']
+0080 | MAKE_NAMED_CLOSURE     L4 = fn@84 skip→+28
+0112 | MAKE_NAMED_CLOSURE     L5 = fn@116 skip→+16
+0132 | MAKE_NAMED_CLOSURE     L6 = fn@136 skip→+66
+0202 | MAKE_NAMED_CLOSURE     L7 = fn@206 skip→+78
+0284 | MAKE_NAMED_CLOSURE     L8 = fn@288 skip→+64
+0352 | MAKE_NAMED_CLOSURE     L9 = fn@356 skip→+240
+0596 | MAKE_NAMED_CLOSURE     L10 = fn@600 skip→+141
+0741 | CALL_1                 L1(L7)
+0746 | PUSH_ACC
+0747 | PROP_SET               L0[$"rx"]['sa'] = pop()
+0758 | CALL_1                 L1(L8)
+0763 | PUSH_ACC
+0764 | PROP_SET               L0[$"rx"]['sab'] = pop()
+0776 | CALL_1                 L1(L9)
+0781 | PUSH_ACC
+0782 | PROP_SET               L0[$"rx"]['ef16'] = pop()
+0795 | CALL_1                 L1(L10)
+0800 | PUSH_ACC
+0801 | PROP_SET               L0[$"rx"]['df16'] = pop()
+0814 | CALL_1                 L1(L4)
+0819 | PUSH_ACC
+0820 | PROP_SET               L0[$"rx"]['asum'] = pop()
+0833 | CALL_1                 L1(L5)
+0838 | PUSH_ACC
+0839 | PROP_SET               L0[$"rx"]['aavg'] = pop()
+0852 | CALL_1                 L1(L6)
+0857 | PUSH_ACC
+0858 | PROP_SET               L0[$"rx"]['astd'] = pop()
+
+========================================================================
+[2] 194 bytes
+========================================================================
+v1 | 1 strings | 1 closures
+0003 | LOAD_STRINGS           1 strings: ['rx']
+0008 | STORE_LOCAL            L1 = '<NONE>'
+0018 | STORE_LOCAL            L2 = 0
+0022 | MAKE_NAMED_CLOSURE     L3 = fn@26 skip→+74
+0100 | CALL_1                 L0[$"rx"]['exec'](L3)
+0115 | CALL_0                 acc()
+0117 | STORE_LOCAL            L4 = acc
+0120 | PROP_SET               L0[$"rx"]['fnp'] = L4
+0133 | PROP_SET               L0[$"rx"]['fnpb'] = [(L4 & 255), ((L4 >>> 8) & 255), ((L4 >>> 16) & 255), ((L4 >>> 24) & 255)]
+0180 | PROP_SET               L0[$"rx"]['fnpv'] = L2
+
+========================================================================
+[3] 717 bytes
+========================================================================
+v1 | 6 strings | 6 closures
+0003 | LOAD_STRINGS           6 strings: ['rx', 'exec', 'slice', 'e4', 'ef', 'sv']
+0028 | STORE_LOCAL            L1 = L0[$"rx"]
+0035 | STORE_LOCAL            L2 = L0['JSON']
+0046 | STORE_LOCAL            L3 = L0['Math']
+0057 | STORE_LOCAL            L4 = L0['localStorage']
+0076 | STORE_LOCAL            L5 = L0['Number']['isFinite']
+0100 | STORE_LOCAL            L6 = $"rx"
+0104 | STORE_LOCAL            L7 = L1['fnpv']
+0115 | STORE_LOCAL            L8 = L1['fnpb']
+0126 | STORE_LOCAL            L9 = 100
+0130 | STORE_LOCAL            L11 = []
+0133 | STORE_LOCAL            L12 = null
+0136 | MAKE_NAMED_CLOSURE     L13 = fn@140 skip→+155
+0295 | MAKE_NAMED_CLOSURE     L14 = fn@299 skip→+117
+0416 | MAKE_NAMED_CLOSURE     L15 = fn@420 skip→+57
+0477 | MAKE_NAMED_CLOSURE     L16 = fn@481 skip→+32
+0513 | MAKE_NAMED_CLOSURE     L17 = fn@517 skip→+126
+0643 | MAKE_NAMED_CLOSURE     L18 = fn@647 skip→+28
+0675 | PROP_SET               L1[$"sv"] = 0
+0682 | CALL_1                 L1[$"exec"](L18)
+0690 | PUSH_ACC
+0691 | PROP_SET               L1['sfe'] = pop()
+0700 | CALL_1                 L1[$"exec"](L13)
+0708 | PUSH_ACC
+0709 | PROP_SET               L1['gd'] = pop()
+
+========================================================================
+[4] 845 bytes
+========================================================================
+v1 | 10 strings | 9 closures
+0003 | LOAD_STRINGS           10 strings: ['webdriver', 'Object', 'keys', 'indexOf', 'done', 'value', 'Array', 'Symbol'...]
+0068 | STORE_LOCAL            L1 = 16
+0072 | STORE_LOCAL            L2 = 1
+0076 | STORE_LOCAL            L3 = (L0['navigator'] || {})
+0094 | STORE_LOCAL            L4 = (L0['document'] || {})
+0111 | MAKE_NAMED_CLOSURE     L5 = fn@115 skip→+19
+0134 | MAKE_NAMED_CLOSURE     L6 = fn@138 skip→+13
+0151 | MAKE_NAMED_CLOSURE     L7 = fn@155 skip→+47
+0202 | MAKE_NAMED_CLOSURE     L8 = fn@206 skip→+158
+0364 | MAKE_NAMED_CLOSURE     L9 = fn@368 skip→+32
+0400 | MAKE_NAMED_CLOSURE     L10 = fn@404 skip→+195
+0599 | MAKE_NAMED_CLOSURE     L11 = fn@603 skip→+35
+0638 | MAKE_NAMED_CLOSURE     L12 = fn@642 skip→+43
+0685 | STORE_LOCAL            L13 = [L12, L11, L10, L9, L8, L7, L6, L5]
+0705 | MAKE_NAMED_CLOSURE     L14 = fn@709 skip→+118
+0827 | CALL_2                 L0[$"rx"]['r'](L14, 'load')
+
+========================================================================
+[5] 615 bytes
+========================================================================
+v1 | 10 strings | 6 closures
+0003 | LOAD_STRINGS           10 strings: ['sfe', 'addEventListener', 'mousedown', 'mouseup', 'exec', 'removeEventListener', 'timeStamp', 'performance'...]
+0097 | STORE_LOCAL            L1 = 32
+0101 | STORE_LOCAL            L2 = 15
+0105 | STORE_LOCAL            L3 = {'capture': true, 'passive': true}
+0129 | STORE_LOCAL            L4 = 1000
+0134 | STORE_LOCAL            L5 = (L0['document'] || {})
+0151 | STORE_LOCAL            L6 = L0['Math']
+0162 | STORE_LOCAL            L7 = L0['rx']
+0171 | STORE_LOCAL            L8 = L0['setInterval']
+0189 | STORE_LOCAL            L9 = L0['clearInterval']
+0209 | STORE_LOCAL            L10 = true
+0212 | STORE_LOCAL            L11 = true
+0215 | STORE_LOCAL            L15 = 0
+0219 | STORE_LOCAL            L17 = []
+0222 | STORE_LOCAL            L18 = []
+0225 | MAKE_NAMED_CLOSURE     L19 = fn@229 skip→+102
+0331 | MAKE_NAMED_CLOSURE     L20 = fn@335 skip→+49
+0384 | MAKE_NAMED_CLOSURE     L21 = fn@388 skip→+36
+0424 | MAKE_NAMED_CLOSURE     L22 = fn@428 skip→+37
+0465 | MAKE_NAMED_CLOSURE     L23 = fn@469 skip→+22
+0491 | MAKE_NAMED_CLOSURE     L24 = fn@495 skip→+68
+0563 | CALL_1                 L7[$"exec"](L23)
+0571 | STORE_LOCAL            L12 = acc
+0574 | CALL_1                 L7[$"exec"](L24)
+0582 | STORE_LOCAL            L13 = acc
+0585 | CALL_2                 L7[$"r"](L20, 'load')
+0599 | CALL_2                 L7[$"r"](L22, 'unload')
+
+========================================================================
+[6] 936 bytes
+========================================================================
+v1 | 10 strings | 5 closures
+0003 | LOAD_STRINGS           10 strings: ['sa', 'concat', 'sfe', 'mousemove', 'exec', 'sab', 'ceil', 'push'...]
+0054 | STORE_LOCAL            L1 = 33
+0058 | STORE_LOCAL            L2 = 200
+0063 | STORE_LOCAL            L3 = 255
+0068 | STORE_LOCAL            L4 = {'capture': true, 'passive': true}
+0092 | STORE_LOCAL            L5 = 1000
+0097 | STORE_LOCAL            L6 = (L0['document'] || {})
+0114 | STORE_LOCAL            L7 = L0['Math']
+0125 | STORE_LOCAL            L8 = L0['rx']
+0134 | STORE_LOCAL            L9 = L0['setInterval']
+0152 | STORE_LOCAL            L10 = L0['clearInterval']
+0172 | STORE_LOCAL            L13 = true
+0175 | STORE_LOCAL            L14 = true
+0178 | STORE_LOCAL            L19 = 0
+0182 | STORE_LOCAL            L20 = []
+0185 | STORE_LOCAL            L21 = []
+0188 | STORE_LOCAL            L22 = []
+0191 | MAKE_NAMED_CLOSURE     L23 = fn@195 skip→+186
+0381 | MAKE_NAMED_CLOSURE     L24 = fn@385 skip→+52
+0437 | MAKE_NAMED_CLOSURE     L25 = fn@441 skip→+42
+0483 | MAKE_NAMED_CLOSURE     L26 = fn@487 skip→+53
+0540 | MAKE_NAMED_CLOSURE     L27 = fn@544 skip→+351
+0895 | CALL_1                 L8[$"exec"](L27)
+0903 | STORE_LOCAL            L11 = acc
+0906 | CALL_2                 L8[$"r"](L24, 'load')
+0920 | CALL_2                 L8[$"r"](L26, 'unload')
+
+========================================================================
+[7] 631 bytes
+========================================================================
+v1 | 5 strings | 5 closures
+0003 | LOAD_STRINGS           5 strings: ['rx', 'sfe', 'scroll', 'exec', 'r']
+0026 | STORE_LOCAL            L1 = 34
+0030 | STORE_LOCAL            L2 = 200
+0035 | STORE_LOCAL            L3 = 255
+0040 | STORE_LOCAL            L4 = {'capture': true, 'passive': true}
+0064 | STORE_LOCAL            L5 = 1000
+0069 | STORE_LOCAL            L6 = L0['Math']
+0080 | STORE_LOCAL            L7 = L0[$"rx"]
+0087 | STORE_LOCAL            L8 = L0['setInterval']
+0105 | STORE_LOCAL            L9 = L0['clearInterval']
+0125 | STORE_LOCAL            L10 = true
+0128 | STORE_LOCAL            L13 = true
+0131 | STORE_LOCAL            L17 = 0
+0135 | STORE_LOCAL            L18 = []
+0138 | STORE_LOCAL            L19 = []
+0141 | MAKE_NAMED_CLOSURE     L20 = fn@145 skip→+102
+0247 | MAKE_NAMED_CLOSURE     L21 = fn@251 skip→+52
+0303 | MAKE_NAMED_CLOSURE     L22 = fn@307 skip→+42
+0349 | MAKE_NAMED_CLOSURE     L23 = fn@353 skip→+43
+0396 | MAKE_NAMED_CLOSURE     L24 = fn@400 skip→+181
+0581 | CALL_1                 L0[$"rx"][$"exec"](L24)
+0592 | STORE_LOCAL            L11 = acc
+0595 | CALL_2                 L0[$"rx"][$"r"](L21, 'load')
+0612 | CALL_2                 L0[$"rx"][$"r"](L23, 'unload')
+
+========================================================================
+[8] 360 bytes
+========================================================================
+v1 | 4 strings | 1 closures
+0003 | LOAD_STRINGS           4 strings: ['rx', '|', 'parseInt', 'sfe']
+0023 | STORE_LOCAL            L1 = 35
+0027 | STORE_LOCAL            L2 = 'rx-pnt'
+0037 | STORE_LOCAL            L3 = 600
+0042 | STORE_LOCAL            L4 = L0[$"rx"]
+0049 | STORE_LOCAL            L5 = L0['localStorage']
+0068 | MAKE_NAMED_CLOSURE     L6 = fn@72 skip→+273
+0345 | CALL_2                 L4['r'](L6, 'load')
+
+========================================================================
+[9] 319 bytes
+========================================================================
+v1 | 2 strings | 1 closures
+0003 | LOAD_STRINGS           2 strings: ['rx', 'sfe']
+0012 | STORE_LOCAL            L1 = 48
+0016 | STORE_LOCAL            L2 = L0[$"rx"]
+0023 | STORE_LOCAL            L3 = L0[$"rx"]['ef16']
+0037 | MAKE_NAMED_CLOSURE     L4 = fn@41 skip→+260
+0301 | CALL_2                 L0[$"rx"]['r'](L4, 'load')
+
+========================================================================
+[10] 1026 bytes
+========================================================================
+v1 | 18 strings | 6 closures
+0003 | LOAD_STRINGS           18 strings: ['rx', 'M', 'weights', 'length', 'bias', 'forward', 'gamma', 'slice'...]
+0118 | STORE_LOCAL            L1 = L0['Math']
+0129 | STORE_LOCAL            L2 = L0[$"rx"]
+0136 | STORE_LOCAL            L3 = (L2['c'] || {})
+0146 | STORE_LOCAL            L4 = L0[$"rx"][$"M"]
+0156 | MAKE_NAMED_CLOSURE     L5 = fn@160 skip→+66
+0226 | MAKE_NAMED_CLOSURE     L6 = fn@230 skip→+199
+0429 | MAKE_NAMED_CLOSURE     L7 = fn@433 skip→+24
+0457 | MAKE_NAMED_CLOSURE     L8 = fn@461 skip→+24
+0485 | MAKE_NAMED_CLOSURE     L9 = fn@489 skip→+224
+0713 | MAKE_NAMED_CLOSURE     L10 = fn@717 skip→+215
+0932 | PROP_SET               L2[$"M"] = L4
+0939 | PROP_SET               L2['ML'] = L9
+0948 | PROP_SET               L9['specs'] = L10
+0960 | JMP_FALSE              if !(L3['DEBUG']) →+53
+0973 | PROP_SET               L9['Dense'] = L5
+0985 | PROP_SET               L9['BatchNorm'] = L6
+1001 | PROP_SET               L9['ReLU'] = L7
+1012 | PROP_SET               L9['Sigmoid'] = L8
+
+========================================================================
+[11] 2875 bytes
+========================================================================
+v1 | 13 strings | 3 closures
+0003 | LOAD_STRINGS           13 strings: ['id', 'features', 'done', 'value', 'model', 'type', 'dense', 'weights'...]
+0084 | STORE_LOCAL            L1 = L0['rx']
+0093 | STORE_LOCAL            L2 = (L1['c'] || {})
+0103 | STORE_LOCAL            L3 = 64
+0107 | STORE_LOCAL            L4 = 1100
+0112 | STORE_LOCAL            L5 = null
+0115 | STORE_LOCAL            L6 = ['sc_s', 'sc_m', 'sc_c', 'ms_s', 'ms_m', 'ms_c', 'ma_s', 'ma_m', ...+23]
+0301 | MAKE_CLOSURE           fn@304 skip→+46
+0350 | PUSH_ACC
+0351 | CALL_1                 L1['ML']['specs']({'layers': [{$"type": 'sigmoid'}, {$"bias": [-0.5526], $"weights": F[16], $"type": $"dense"}, {$"type": $"relu"}, {$"epsilon": 0.0010, $"weights": [0.0009, 0.0009, 0.0013, 0.0005, 0.0008, 0.0009, 0.0017, 0.0015, ...+56], $"type": $"batchnorm"}, {$"bias": [3.2538, 3.3813, 3.3859, 3.4833, 2.1993, 3.1210, 2.9207, 3.5262, ...+8], $"weights": F[256], $"type": $"dense"}, {$"type": $"relu"}, {$"epsilon": 0.0010, $"weights": [0.0084, 0.0076, 0.0036, 0.0132, 0.0085, 0.0048, 0.0127, 0.0110, ...+56], $"type": $"batchnorm"}, {$"bias": [0.0063, -0.0140, 0.0089, -0.0028, -0.0020, -0.0081, -0.0065, 0.0108, ...+8], $"weights": F[496], $"type": $"dense"}], 'featureNorms': [517.6075, 259.0503, 2000, 0, 0, 519.5626, 256.8917, 2000, ...+147]})
+2614 | PUSH_ACC
+2615 | EVAL                   {$"model": pop(), $"features": pop(), $"id": 0}
+2628 | PUSH_ACC
+2629 | EVAL                   [pop()]
+2633 | STORE_LOCAL            L7 = acc
+2636 | MAKE_NAMED_CLOSURE     L8 = fn@2640 skip→+167
+2807 | MAKE_NAMED_CLOSURE     L9 = fn@2811 skip→+23
+2834 | CALL_2                 L1['r'](L9, 'load')
+2849 | JMP_FALSE              if !(L2['DEBUG']) →+13
+2862 | PROP_SET               L1['__mdls'] = L7
+
+========================================================================
+[12] 673 bytes
+========================================================================
+v1 | 13 strings | 6 closures
+0003 | LOAD_STRINGS           13 strings: ['Math', 'removeEventListener', 'mousemove', 'click', 'scroll', 'tag', 'rx', 'count'...]
+0112 | STORE_LOCAL            L1 = (L0['document'] || {})
+0129 | STORE_LOCAL            L2 = (L0['ue'] || {})
+0140 | STORE_LOCAL            L3 = L0['uex']
+0150 | STORE_LOCAL            L4 = L0[$"Math"]['sqrt']
+0164 | STORE_LOCAL            L5 = L0[$"Math"]['pow']
+0177 | STORE_LOCAL            L6 = L0[$"Math"]['abs']
+0190 | STORE_LOCAL            L7 = {'passive': true, 'capture': true}
+0214 | STORE_LOCAL            L8 = 100
+0218 | STORE_LOCAL            L9 = 100
+0222 | STORE_LOCAL            L10 = null
+0225 | STORE_LOCAL            L11 = null
+0228 | STORE_LOCAL            L12 = null
+0231 | STORE_LOCAL            L13 = null
+0234 | STORE_LOCAL            L14 = null
+0237 | STORE_LOCAL            L15 = null
+0240 | STORE_LOCAL            L16 = 0
+0244 | STORE_LOCAL            L17 = 0
+0248 | MAKE_NAMED_CLOSURE     L18 = fn@252 skip→+41
+0293 | MAKE_NAMED_CLOSURE     L19 = fn@297 skip→+101
+0398 | MAKE_NAMED_CLOSURE     L20 = fn@402 skip→+26
+0428 | MAKE_NAMED_CLOSURE     L21 = fn@432 skip→+86
+0518 | MAKE_NAMED_CLOSURE     L22 = fn@522 skip→+46
+0568 | MAKE_NAMED_CLOSURE     L23 = fn@572 skip→+83
+0655 | CALL_2                 L0[$"rx"]['r'](L23, 'load')
+
+========================================================================
+[13] 304 bytes
+========================================================================
+v1 | 2 strings | 3 closures
+0003 | LOAD_STRINGS           2 strings: ['tag', 'rx']
+0012 | STORE_LOCAL            L1 = (L0['document'] || {})
+0029 | STORE_LOCAL            L2 = (L0['ue'] || {})
+0040 | STORE_LOCAL            L3 = L0['uex']
+0050 | MAKE_NAMED_CLOSURE     L4 = fn@54 skip→+79
+0133 | MAKE_NAMED_CLOSURE     L5 = fn@137 skip→+63
+0200 | MAKE_NAMED_CLOSURE     L6 = fn@204 skip→+82
+0286 | CALL_2                 L0[$"rx"]['r'](L6, 'load')
+
+========================================================================
+[14] 1193 bytes
+========================================================================
+v1 | 11 strings | 7 closures
+0003 | LOAD_STRINGS           11 strings: ['rx', 'RegExp', 'cookie', 'length', 'floor', 'cssRules', 'undefined', 'rules'...]
+0083 | STORE_LOCAL            L1 = L0['Math']
+0094 | STORE_LOCAL            L2 = L0[$"rx"]
+0101 | STORE_LOCAL            L3 = (L2['c'] || {})
+0111 | STORE_LOCAL            L4 = L0['document']
+0126 | STORE_LOCAL            L5 = L0['setInterval']
+0144 | STORE_LOCAL            L6 = L0['clearInterval']
+0164 | STORE_LOCAL            L7 = L0['setTimeout']
+0181 | NEW_1                  new L0[$"RegExp"]('^pplx-agent(?:-[0-9]+_[0-9]+)?-overlay(?:-(?:base|-stop-butt')
+0255 | STORE_LOCAL            L8 = acc
+0258 | NEW_2                  new L0[$"RegExp"]('i', 'pplx-agent(?:-[0-9]+_[0-9]+)?-overlay(?:-(?:base|stop-button')
+0332 | STORE_LOCAL            L9 = acc
+0335 | STORE_LOCAL            L10 = 'amzn-ctxv-id'
+0351 | STORE_LOCAL            L11 = 'amzn-css-id'
+0366 | STORE_LOCAL            L12 = (L3['cd_ri'] || 2000)
+0382 | STORE_LOCAL            L13 = (L3['cd_sc'] || 120000)
+0399 | MAKE_NAMED_CLOSURE     L15 = fn@403 skip→+82
+0485 | MAKE_NAMED_CLOSURE     L16 = fn@489 skip→+58
+0547 | MAKE_NAMED_CLOSURE     L17 = fn@551 skip→+184
+0735 | MAKE_NAMED_CLOSURE     L18 = fn@739 skip→+48
+0787 | MAKE_NAMED_CLOSURE     L19 = fn@791 skip→+336
+1127 | MAKE_NAMED_CLOSURE     L20 = fn@1131 skip→+12
+1143 | MAKE_NAMED_CLOSURE     L21 = fn@1147 skip→+28
+1175 | CALL_2                 L0[$"rx"]['r'](L21, 'load')
+
+-e 
+
+
+=== Amazon_com___hat.html ===
+15 payloads
+
+========================================================================
+[0] 1344 bytes
+========================================================================
+v1 | 27 strings | 8 closures
+0003 | LOAD_STRINGS           27 strings: ['rx', 'Math', 'imul', 'done', 'value', 'length', 'then', 'oncomplete'...]
+0175 | STORE_LOCAL            L1 = L0[$"rx"]
+0182 | STORE_LOCAL            L2 = (L1['c'] || {})
+0192 | STORE_LOCAL            L3 = (L0['msCrypto'] || L0['crypto'])
+0219 | MAKE_NAMED_CLOSURE     L7 = fn@223 skip→+36
+0259 | MAKE_NAMED_CLOSURE     L8 = fn@263 skip→+135
+0398 | MAKE_NAMED_CLOSURE     L9 = fn@402 skip→+27
+0429 | MAKE_NAMED_CLOSURE     L10 = fn@433 skip→+190
+0623 | MAKE_NAMED_CLOSURE     L11 = fn@627 skip→+71
+0698 | MAKE_NAMED_CLOSURE     L12 = fn@702 skip→+148
+0850 | MAKE_NAMED_CLOSURE     L13 = fn@854 skip→+121
+0975 | MAKE_NAMED_CLOSURE     L14 = fn@979 skip→+263
+1242 | CALL_1                 L1[$"exec"](L12)
+1250 | PUSH_ACC
+1251 | PROP_SET               L1['ep'] = pop()
+1259 | CALL_1                 L1[$"exec"](L13)
+1267 | PUSH_ACC
+1268 | PROP_SET               L1['ep4'] = pop()
+1277 | CALL_1                 L1[$"exec"](L10)
+1285 | PUSH_ACC
+1286 | PROP_SET               L1['e4'] = pop()
+1294 | CALL_1                 L1[$"exec"](L8)
+1302 | PUSH_ACC
+1303 | PROP_SET               L1['h'] = pop()
+1310 | JMP_FALSE              if !((L1[$"rid"] && L1[$"sid"])) →+20
+1324 | CALL_1                 L1[$"exec"](L14)
+1332 | CALL_2                 acc(L1[$"sid"], L1[$"rid"])
+
+========================================================================
+[1] 871 bytes
+========================================================================
+v1 | 7 strings | 7 closures
+0003 | LOAD_STRINGS           7 strings: ['rx', 'done', 'value', 'length', 'pow', 'floor', 'round']
+0042 | STORE_LOCAL            L1 = L0[$"rx"]['exec']
+0056 | STORE_LOCAL            L2 = L0['Math']
+0067 | STORE_LOCAL            L3 = L0['Number']
+0080 | MAKE_NAMED_CLOSURE     L4 = fn@84 skip→+28
+0112 | MAKE_NAMED_CLOSURE     L5 = fn@116 skip→+16
+0132 | MAKE_NAMED_CLOSURE     L6 = fn@136 skip→+66
+0202 | MAKE_NAMED_CLOSURE     L7 = fn@206 skip→+78
+0284 | MAKE_NAMED_CLOSURE     L8 = fn@288 skip→+64
+0352 | MAKE_NAMED_CLOSURE     L9 = fn@356 skip→+240
+0596 | MAKE_NAMED_CLOSURE     L10 = fn@600 skip→+141
+0741 | CALL_1                 L1(L7)
+0746 | PUSH_ACC
+0747 | PROP_SET               L0[$"rx"]['sa'] = pop()
+0758 | CALL_1                 L1(L8)
+0763 | PUSH_ACC
+0764 | PROP_SET               L0[$"rx"]['sab'] = pop()
+0776 | CALL_1                 L1(L9)
+0781 | PUSH_ACC
+0782 | PROP_SET               L0[$"rx"]['ef16'] = pop()
+0795 | CALL_1                 L1(L10)
+0800 | PUSH_ACC
+0801 | PROP_SET               L0[$"rx"]['df16'] = pop()
+0814 | CALL_1                 L1(L4)
+0819 | PUSH_ACC
+0820 | PROP_SET               L0[$"rx"]['asum'] = pop()
+0833 | CALL_1                 L1(L5)
+0838 | PUSH_ACC
+0839 | PROP_SET               L0[$"rx"]['aavg'] = pop()
+0852 | CALL_1                 L1(L6)
+0857 | PUSH_ACC
+0858 | PROP_SET               L0[$"rx"]['astd'] = pop()
+
+========================================================================
+[2] 194 bytes
+========================================================================
+v1 | 1 strings | 1 closures
+0003 | LOAD_STRINGS           1 strings: ['rx']
+0008 | STORE_LOCAL            L1 = '<NONE>'
+0018 | STORE_LOCAL            L2 = 0
+0022 | MAKE_NAMED_CLOSURE     L3 = fn@26 skip→+74
+0100 | CALL_1                 L0[$"rx"]['exec'](L3)
+0115 | CALL_0                 acc()
+0117 | STORE_LOCAL            L4 = acc
+0120 | PROP_SET               L0[$"rx"]['fnp'] = L4
+0133 | PROP_SET               L0[$"rx"]['fnpb'] = [(L4 & 255), ((L4 >>> 8) & 255), ((L4 >>> 16) & 255), ((L4 >>> 24) & 255)]
+0180 | PROP_SET               L0[$"rx"]['fnpv'] = L2
+
+========================================================================
+[3] 717 bytes
+========================================================================
+v1 | 6 strings | 6 closures
+0003 | LOAD_STRINGS           6 strings: ['rx', 'exec', 'slice', 'e4', 'ef', 'sv']
+0028 | STORE_LOCAL            L1 = L0[$"rx"]
+0035 | STORE_LOCAL            L2 = L0['JSON']
+0046 | STORE_LOCAL            L3 = L0['Math']
+0057 | STORE_LOCAL            L4 = L0['localStorage']
+0076 | STORE_LOCAL            L5 = L0['Number']['isFinite']
+0100 | STORE_LOCAL            L6 = $"rx"
+0104 | STORE_LOCAL            L7 = L1['fnpv']
+0115 | STORE_LOCAL            L8 = L1['fnpb']
+0126 | STORE_LOCAL            L9 = 100
+0130 | STORE_LOCAL            L11 = []
+0133 | STORE_LOCAL            L12 = null
+0136 | MAKE_NAMED_CLOSURE     L13 = fn@140 skip→+155
+0295 | MAKE_NAMED_CLOSURE     L14 = fn@299 skip→+117
+0416 | MAKE_NAMED_CLOSURE     L15 = fn@420 skip→+57
+0477 | MAKE_NAMED_CLOSURE     L16 = fn@481 skip→+32
+0513 | MAKE_NAMED_CLOSURE     L17 = fn@517 skip→+126
+0643 | MAKE_NAMED_CLOSURE     L18 = fn@647 skip→+28
+0675 | PROP_SET               L1[$"sv"] = 0
+0682 | CALL_1                 L1[$"exec"](L18)
+0690 | PUSH_ACC
+0691 | PROP_SET               L1['sfe'] = pop()
+0700 | CALL_1                 L1[$"exec"](L13)
+0708 | PUSH_ACC
+0709 | PROP_SET               L1['gd'] = pop()
+
+========================================================================
+[4] 845 bytes
+========================================================================
+v1 | 10 strings | 9 closures
+0003 | LOAD_STRINGS           10 strings: ['webdriver', 'Object', 'keys', 'indexOf', 'done', 'value', 'Array', 'Symbol'...]
+0068 | STORE_LOCAL            L1 = 16
+0072 | STORE_LOCAL            L2 = 1
+0076 | STORE_LOCAL            L3 = (L0['navigator'] || {})
+0094 | STORE_LOCAL            L4 = (L0['document'] || {})
+0111 | MAKE_NAMED_CLOSURE     L5 = fn@115 skip→+19
+0134 | MAKE_NAMED_CLOSURE     L6 = fn@138 skip→+13
+0151 | MAKE_NAMED_CLOSURE     L7 = fn@155 skip→+47
+0202 | MAKE_NAMED_CLOSURE     L8 = fn@206 skip→+158
+0364 | MAKE_NAMED_CLOSURE     L9 = fn@368 skip→+32
+0400 | MAKE_NAMED_CLOSURE     L10 = fn@404 skip→+195
+0599 | MAKE_NAMED_CLOSURE     L11 = fn@603 skip→+35
+0638 | MAKE_NAMED_CLOSURE     L12 = fn@642 skip→+43
+0685 | STORE_LOCAL            L13 = [L12, L11, L10, L9, L8, L7, L6, L5]
+0705 | MAKE_NAMED_CLOSURE     L14 = fn@709 skip→+118
+0827 | CALL_2                 L0[$"rx"]['r'](L14, 'load')
+
+========================================================================
+[5] 615 bytes
+========================================================================
+v1 | 10 strings | 6 closures
+0003 | LOAD_STRINGS           10 strings: ['sfe', 'addEventListener', 'mousedown', 'mouseup', 'exec', 'removeEventListener', 'timeStamp', 'performance'...]
+0097 | STORE_LOCAL            L1 = 32
+0101 | STORE_LOCAL            L2 = 15
+0105 | STORE_LOCAL            L3 = {'capture': true, 'passive': true}
+0129 | STORE_LOCAL            L4 = 1000
+0134 | STORE_LOCAL            L5 = (L0['document'] || {})
+0151 | STORE_LOCAL            L6 = L0['Math']
+0162 | STORE_LOCAL            L7 = L0['rx']
+0171 | STORE_LOCAL            L8 = L0['setInterval']
+0189 | STORE_LOCAL            L9 = L0['clearInterval']
+0209 | STORE_LOCAL            L10 = true
+0212 | STORE_LOCAL            L11 = true
+0215 | STORE_LOCAL            L15 = 0
+0219 | STORE_LOCAL            L17 = []
+0222 | STORE_LOCAL            L18 = []
+0225 | MAKE_NAMED_CLOSURE     L19 = fn@229 skip→+102
+0331 | MAKE_NAMED_CLOSURE     L20 = fn@335 skip→+49
+0384 | MAKE_NAMED_CLOSURE     L21 = fn@388 skip→+36
+0424 | MAKE_NAMED_CLOSURE     L22 = fn@428 skip→+37
+0465 | MAKE_NAMED_CLOSURE     L23 = fn@469 skip→+22
+0491 | MAKE_NAMED_CLOSURE     L24 = fn@495 skip→+68
+0563 | CALL_1                 L7[$"exec"](L23)
+0571 | STORE_LOCAL            L12 = acc
+0574 | CALL_1                 L7[$"exec"](L24)
+0582 | STORE_LOCAL            L13 = acc
+0585 | CALL_2                 L7[$"r"](L20, 'load')
+0599 | CALL_2                 L7[$"r"](L22, 'unload')
+
+========================================================================
+[6] 936 bytes
+========================================================================
+v1 | 10 strings | 5 closures
+0003 | LOAD_STRINGS           10 strings: ['sa', 'concat', 'sfe', 'mousemove', 'exec', 'sab', 'ceil', 'push'...]
+0054 | STORE_LOCAL            L1 = 33
+0058 | STORE_LOCAL            L2 = 200
+0063 | STORE_LOCAL            L3 = 255
+0068 | STORE_LOCAL            L4 = {'capture': true, 'passive': true}
+0092 | STORE_LOCAL            L5 = 1000
+0097 | STORE_LOCAL            L6 = (L0['document'] || {})
+0114 | STORE_LOCAL            L7 = L0['Math']
+0125 | STORE_LOCAL            L8 = L0['rx']
+0134 | STORE_LOCAL            L9 = L0['setInterval']
+0152 | STORE_LOCAL            L10 = L0['clearInterval']
+0172 | STORE_LOCAL            L13 = true
+0175 | STORE_LOCAL            L14 = true
+0178 | STORE_LOCAL            L19 = 0
+0182 | STORE_LOCAL            L20 = []
+0185 | STORE_LOCAL            L21 = []
+0188 | STORE_LOCAL            L22 = []
+0191 | MAKE_NAMED_CLOSURE     L23 = fn@195 skip→+186
+0381 | MAKE_NAMED_CLOSURE     L24 = fn@385 skip→+52
+0437 | MAKE_NAMED_CLOSURE     L25 = fn@441 skip→+42
+0483 | MAKE_NAMED_CLOSURE     L26 = fn@487 skip→+53
+0540 | MAKE_NAMED_CLOSURE     L27 = fn@544 skip→+351
+0895 | CALL_1                 L8[$"exec"](L27)
+0903 | STORE_LOCAL            L11 = acc
+0906 | CALL_2                 L8[$"r"](L24, 'load')
+0920 | CALL_2                 L8[$"r"](L26, 'unload')
+
+========================================================================
+[7] 631 bytes
+========================================================================
+v1 | 5 strings | 5 closures
+0003 | LOAD_STRINGS           5 strings: ['rx', 'sfe', 'scroll', 'exec', 'r']
+0026 | STORE_LOCAL            L1 = 34
+0030 | STORE_LOCAL            L2 = 200
+0035 | STORE_LOCAL            L3 = 255
+0040 | STORE_LOCAL            L4 = {'capture': true, 'passive': true}
+0064 | STORE_LOCAL            L5 = 1000
+0069 | STORE_LOCAL            L6 = L0['Math']
+0080 | STORE_LOCAL            L7 = L0[$"rx"]
+0087 | STORE_LOCAL            L8 = L0['setInterval']
+0105 | STORE_LOCAL            L9 = L0['clearInterval']
+0125 | STORE_LOCAL            L10 = true
+0128 | STORE_LOCAL            L13 = true
+0131 | STORE_LOCAL            L17 = 0
+0135 | STORE_LOCAL            L18 = []
+0138 | STORE_LOCAL            L19 = []
+0141 | MAKE_NAMED_CLOSURE     L20 = fn@145 skip→+102
+0247 | MAKE_NAMED_CLOSURE     L21 = fn@251 skip→+52
+0303 | MAKE_NAMED_CLOSURE     L22 = fn@307 skip→+42
+0349 | MAKE_NAMED_CLOSURE     L23 = fn@353 skip→+43
+0396 | MAKE_NAMED_CLOSURE     L24 = fn@400 skip→+181
+0581 | CALL_1                 L0[$"rx"][$"exec"](L24)
+0592 | STORE_LOCAL            L11 = acc
+0595 | CALL_2                 L0[$"rx"][$"r"](L21, 'load')
+0612 | CALL_2                 L0[$"rx"][$"r"](L23, 'unload')
+
+========================================================================
+[8] 360 bytes
+========================================================================
+v1 | 4 strings | 1 closures
+0003 | LOAD_STRINGS           4 strings: ['rx', '|', 'parseInt', 'sfe']
+0023 | STORE_LOCAL            L1 = 35
+0027 | STORE_LOCAL            L2 = 'rx-pnt'
+0037 | STORE_LOCAL            L3 = 600
+0042 | STORE_LOCAL            L4 = L0[$"rx"]
+0049 | STORE_LOCAL            L5 = L0['localStorage']
+0068 | MAKE_NAMED_CLOSURE     L6 = fn@72 skip→+273
+0345 | CALL_2                 L4['r'](L6, 'load')
+
+========================================================================
+[9] 319 bytes
+========================================================================
+v1 | 2 strings | 1 closures
+0003 | LOAD_STRINGS           2 strings: ['rx', 'sfe']
+0012 | STORE_LOCAL            L1 = 48
+0016 | STORE_LOCAL            L2 = L0[$"rx"]
+0023 | STORE_LOCAL            L3 = L0[$"rx"]['ef16']
+0037 | MAKE_NAMED_CLOSURE     L4 = fn@41 skip→+260
+0301 | CALL_2                 L0[$"rx"]['r'](L4, 'load')
+
+========================================================================
+[10] 1026 bytes
+========================================================================
+v1 | 18 strings | 6 closures
+0003 | LOAD_STRINGS           18 strings: ['rx', 'M', 'weights', 'length', 'bias', 'forward', 'gamma', 'slice'...]
+0118 | STORE_LOCAL            L1 = L0['Math']
+0129 | STORE_LOCAL            L2 = L0[$"rx"]
+0136 | STORE_LOCAL            L3 = (L2['c'] || {})
+0146 | STORE_LOCAL            L4 = L0[$"rx"][$"M"]
+0156 | MAKE_NAMED_CLOSURE     L5 = fn@160 skip→+66
+0226 | MAKE_NAMED_CLOSURE     L6 = fn@230 skip→+199
+0429 | MAKE_NAMED_CLOSURE     L7 = fn@433 skip→+24
+0457 | MAKE_NAMED_CLOSURE     L8 = fn@461 skip→+24
+0485 | MAKE_NAMED_CLOSURE     L9 = fn@489 skip→+224
+0713 | MAKE_NAMED_CLOSURE     L10 = fn@717 skip→+215
+0932 | PROP_SET               L2[$"M"] = L4
+0939 | PROP_SET               L2['ML'] = L9
+0948 | PROP_SET               L9['specs'] = L10
+0960 | JMP_FALSE              if !(L3['DEBUG']) →+53
+0973 | PROP_SET               L9['Dense'] = L5
+0985 | PROP_SET               L9['BatchNorm'] = L6
+1001 | PROP_SET               L9['ReLU'] = L7
+1012 | PROP_SET               L9['Sigmoid'] = L8
+
+========================================================================
+[11] 2875 bytes
+========================================================================
+v1 | 13 strings | 3 closures
+0003 | LOAD_STRINGS           13 strings: ['id', 'features', 'done', 'value', 'model', 'type', 'dense', 'weights'...]
+0084 | STORE_LOCAL            L1 = L0['rx']
+0093 | STORE_LOCAL            L2 = (L1['c'] || {})
+0103 | STORE_LOCAL            L3 = 64
+0107 | STORE_LOCAL            L4 = 1100
+0112 | STORE_LOCAL            L5 = null
+0115 | STORE_LOCAL            L6 = ['sc_s', 'sc_m', 'sc_c', 'ms_s', 'ms_m', 'ms_c', 'ma_s', 'ma_m', ...+23]
+0301 | MAKE_CLOSURE           fn@304 skip→+46
+0350 | PUSH_ACC
+0351 | CALL_1                 L1['ML']['specs']({'layers': [{$"type": 'sigmoid'}, {$"bias": [-0.5526], $"weights": F[16], $"type": $"dense"}, {$"type": $"relu"}, {$"epsilon": 0.0010, $"weights": [0.0009, 0.0009, 0.0013, 0.0005, 0.0008, 0.0009, 0.0017, 0.0015, ...+56], $"type": $"batchnorm"}, {$"bias": [3.2538, 3.3813, 3.3859, 3.4833, 2.1993, 3.1210, 2.9207, 3.5262, ...+8], $"weights": F[256], $"type": $"dense"}, {$"type": $"relu"}, {$"epsilon": 0.0010, $"weights": [0.0084, 0.0076, 0.0036, 0.0132, 0.0085, 0.0048, 0.0127, 0.0110, ...+56], $"type": $"batchnorm"}, {$"bias": [0.0063, -0.0140, 0.0089, -0.0028, -0.0020, -0.0081, -0.0065, 0.0108, ...+8], $"weights": F[496], $"type": $"dense"}], 'featureNorms': [517.6075, 259.0503, 2000, 0, 0, 519.5626, 256.8917, 2000, ...+147]})
+2614 | PUSH_ACC
+2615 | EVAL                   {$"model": pop(), $"features": pop(), $"id": 0}
+2628 | PUSH_ACC
+2629 | EVAL                   [pop()]
+2633 | STORE_LOCAL            L7 = acc
+2636 | MAKE_NAMED_CLOSURE     L8 = fn@2640 skip→+167
+2807 | MAKE_NAMED_CLOSURE     L9 = fn@2811 skip→+23
+2834 | CALL_2                 L1['r'](L9, 'load')
+2849 | JMP_FALSE              if !(L2['DEBUG']) →+13
+2862 | PROP_SET               L1['__mdls'] = L7
+
+========================================================================
+[12] 673 bytes
+========================================================================
+v1 | 13 strings | 6 closures
+0003 | LOAD_STRINGS           13 strings: ['Math', 'removeEventListener', 'mousemove', 'click', 'scroll', 'tag', 'rx', 'count'...]
+0112 | STORE_LOCAL            L1 = (L0['document'] || {})
+0129 | STORE_LOCAL            L2 = (L0['ue'] || {})
+0140 | STORE_LOCAL            L3 = L0['uex']
+0150 | STORE_LOCAL            L4 = L0[$"Math"]['sqrt']
+0164 | STORE_LOCAL            L5 = L0[$"Math"]['pow']
+0177 | STORE_LOCAL            L6 = L0[$"Math"]['abs']
+0190 | STORE_LOCAL            L7 = {'passive': true, 'capture': true}
+0214 | STORE_LOCAL            L8 = 100
+0218 | STORE_LOCAL            L9 = 100
+0222 | STORE_LOCAL            L10 = null
+0225 | STORE_LOCAL            L11 = null
+0228 | STORE_LOCAL            L12 = null
+0231 | STORE_LOCAL            L13 = null
+0234 | STORE_LOCAL            L14 = null
+0237 | STORE_LOCAL            L15 = null
+0240 | STORE_LOCAL            L16 = 0
+0244 | STORE_LOCAL            L17 = 0
+0248 | MAKE_NAMED_CLOSURE     L18 = fn@252 skip→+41
+0293 | MAKE_NAMED_CLOSURE     L19 = fn@297 skip→+101
+0398 | MAKE_NAMED_CLOSURE     L20 = fn@402 skip→+26
+0428 | MAKE_NAMED_CLOSURE     L21 = fn@432 skip→+86
+0518 | MAKE_NAMED_CLOSURE     L22 = fn@522 skip→+46
+0568 | MAKE_NAMED_CLOSURE     L23 = fn@572 skip→+83
+0655 | CALL_2                 L0[$"rx"]['r'](L23, 'load')
+
+========================================================================
+[13] 304 bytes
+========================================================================
+v1 | 2 strings | 3 closures
+0003 | LOAD_STRINGS           2 strings: ['tag', 'rx']
+0012 | STORE_LOCAL            L1 = (L0['document'] || {})
+0029 | STORE_LOCAL            L2 = (L0['ue'] || {})
+0040 | STORE_LOCAL            L3 = L0['uex']
+0050 | MAKE_NAMED_CLOSURE     L4 = fn@54 skip→+79
+0133 | MAKE_NAMED_CLOSURE     L5 = fn@137 skip→+63
+0200 | MAKE_NAMED_CLOSURE     L6 = fn@204 skip→+82
+0286 | CALL_2                 L0[$"rx"]['r'](L6, 'load')
+
+========================================================================
+[14] 1193 bytes
+========================================================================
+v1 | 11 strings | 7 closures
+0003 | LOAD_STRINGS           11 strings: ['rx', 'RegExp', 'cookie', 'length', 'floor', 'cssRules', 'undefined', 'rules'...]
+0083 | STORE_LOCAL            L1 = L0['Math']
+0094 | STORE_LOCAL            L2 = L0[$"rx"]
+0101 | STORE_LOCAL            L3 = (L2['c'] || {})
+0111 | STORE_LOCAL            L4 = L0['document']
+0126 | STORE_LOCAL            L5 = L0['setInterval']
+0144 | STORE_LOCAL            L6 = L0['clearInterval']
+0164 | STORE_LOCAL            L7 = L0['setTimeout']
+0181 | NEW_1                  new L0[$"RegExp"]('^pplx-agent(?:-[0-9]+_[0-9]+)?-overlay(?:-(?:base|-stop-butt')
+0255 | STORE_LOCAL            L8 = acc
+0258 | NEW_2                  new L0[$"RegExp"]('i', 'pplx-agent(?:-[0-9]+_[0-9]+)?-overlay(?:-(?:base|stop-button')
+0332 | STORE_LOCAL            L9 = acc
+0335 | STORE_LOCAL            L10 = 'amzn-ctxv-id'
+0351 | STORE_LOCAL            L11 = 'amzn-css-id'
+0366 | STORE_LOCAL            L12 = (L3['cd_ri'] || 2000)
+0382 | STORE_LOCAL            L13 = (L3['cd_sc'] || 120000)
+0399 | MAKE_NAMED_CLOSURE     L15 = fn@403 skip→+82
+0485 | MAKE_NAMED_CLOSURE     L16 = fn@489 skip→+58
+0547 | MAKE_NAMED_CLOSURE     L17 = fn@551 skip→+184
+0735 | MAKE_NAMED_CLOSURE     L18 = fn@739 skip→+48
+0787 | MAKE_NAMED_CLOSURE     L19 = fn@791 skip→+336
+1127 | MAKE_NAMED_CLOSURE     L20 = fn@1131 skip→+12
+1143 | MAKE_NAMED_CLOSURE     L21 = fn@1147 skip→+28
+1175 | CALL_2                 L0[$"rx"]['r'](L21, 'load')
+
+-e 
+
+
+=== Amazon_com___nina_simone.html ===
+15 payloads
+
+========================================================================
+[0] 1344 bytes
+========================================================================
+v1 | 27 strings | 8 closures
+0003 | LOAD_STRINGS           27 strings: ['rx', 'Math', 'imul', 'done', 'value', 'length', 'then', 'oncomplete'...]
+0175 | STORE_LOCAL            L1 = L0[$"rx"]
+0182 | STORE_LOCAL            L2 = (L1['c'] || {})
+0192 | STORE_LOCAL            L3 = (L0['msCrypto'] || L0['crypto'])
+0219 | MAKE_NAMED_CLOSURE     L7 = fn@223 skip→+36
+0259 | MAKE_NAMED_CLOSURE     L8 = fn@263 skip→+135
+0398 | MAKE_NAMED_CLOSURE     L9 = fn@402 skip→+27
+0429 | MAKE_NAMED_CLOSURE     L10 = fn@433 skip→+190
+0623 | MAKE_NAMED_CLOSURE     L11 = fn@627 skip→+71
+0698 | MAKE_NAMED_CLOSURE     L12 = fn@702 skip→+148
+0850 | MAKE_NAMED_CLOSURE     L13 = fn@854 skip→+121
+0975 | MAKE_NAMED_CLOSURE     L14 = fn@979 skip→+263
+1242 | CALL_1                 L1[$"exec"](L12)
+1250 | PUSH_ACC
+1251 | PROP_SET               L1['ep'] = pop()
+1259 | CALL_1                 L1[$"exec"](L13)
+1267 | PUSH_ACC
+1268 | PROP_SET               L1['ep4'] = pop()
+1277 | CALL_1                 L1[$"exec"](L10)
+1285 | PUSH_ACC
+1286 | PROP_SET               L1['e4'] = pop()
+1294 | CALL_1                 L1[$"exec"](L8)
+1302 | PUSH_ACC
+1303 | PROP_SET               L1['h'] = pop()
+1310 | JMP_FALSE              if !((L1[$"rid"] && L1[$"sid"])) →+20
+1324 | CALL_1                 L1[$"exec"](L14)
+1332 | CALL_2                 acc(L1[$"sid"], L1[$"rid"])
+
+========================================================================
+[1] 871 bytes
+========================================================================
+v1 | 7 strings | 7 closures
+0003 | LOAD_STRINGS           7 strings: ['rx', 'done', 'value', 'length', 'pow', 'floor', 'round']
+0042 | STORE_LOCAL            L1 = L0[$"rx"]['exec']
+0056 | STORE_LOCAL            L2 = L0['Math']
+0067 | STORE_LOCAL            L3 = L0['Number']
+0080 | MAKE_NAMED_CLOSURE     L4 = fn@84 skip→+28
+0112 | MAKE_NAMED_CLOSURE     L5 = fn@116 skip→+16
+0132 | MAKE_NAMED_CLOSURE     L6 = fn@136 skip→+66
+0202 | MAKE_NAMED_CLOSURE     L7 = fn@206 skip→+78
+0284 | MAKE_NAMED_CLOSURE     L8 = fn@288 skip→+64
+0352 | MAKE_NAMED_CLOSURE     L9 = fn@356 skip→+240
+0596 | MAKE_NAMED_CLOSURE     L10 = fn@600 skip→+141
+0741 | CALL_1                 L1(L7)
+0746 | PUSH_ACC
+0747 | PROP_SET               L0[$"rx"]['sa'] = pop()
+0758 | CALL_1                 L1(L8)
+0763 | PUSH_ACC
+0764 | PROP_SET               L0[$"rx"]['sab'] = pop()
+0776 | CALL_1                 L1(L9)
+0781 | PUSH_ACC
+0782 | PROP_SET               L0[$"rx"]['ef16'] = pop()
+0795 | CALL_1                 L1(L10)
+0800 | PUSH_ACC
+0801 | PROP_SET               L0[$"rx"]['df16'] = pop()
+0814 | CALL_1                 L1(L4)
+0819 | PUSH_ACC
+0820 | PROP_SET               L0[$"rx"]['asum'] = pop()
+0833 | CALL_1                 L1(L5)
+0838 | PUSH_ACC
+0839 | PROP_SET               L0[$"rx"]['aavg'] = pop()
+0852 | CALL_1                 L1(L6)
+0857 | PUSH_ACC
+0858 | PROP_SET               L0[$"rx"]['astd'] = pop()
+
+========================================================================
+[2] 194 bytes
+========================================================================
+v1 | 1 strings | 1 closures
+0003 | LOAD_STRINGS           1 strings: ['rx']
+0008 | STORE_LOCAL            L1 = '<NONE>'
+0018 | STORE_LOCAL            L2 = 0
+0022 | MAKE_NAMED_CLOSURE     L3 = fn@26 skip→+74
+0100 | CALL_1                 L0[$"rx"]['exec'](L3)
+0115 | CALL_0                 acc()
+0117 | STORE_LOCAL            L4 = acc
+0120 | PROP_SET               L0[$"rx"]['fnp'] = L4
+0133 | PROP_SET               L0[$"rx"]['fnpb'] = [(L4 & 255), ((L4 >>> 8) & 255), ((L4 >>> 16) & 255), ((L4 >>> 24) & 255)]
+0180 | PROP_SET               L0[$"rx"]['fnpv'] = L2
+
+========================================================================
+[3] 717 bytes
+========================================================================
+v1 | 6 strings | 6 closures
+0003 | LOAD_STRINGS           6 strings: ['rx', 'exec', 'slice', 'e4', 'ef', 'sv']
+0028 | STORE_LOCAL            L1 = L0[$"rx"]
+0035 | STORE_LOCAL            L2 = L0['JSON']
+0046 | STORE_LOCAL            L3 = L0['Math']
+0057 | STORE_LOCAL            L4 = L0['localStorage']
+0076 | STORE_LOCAL            L5 = L0['Number']['isFinite']
+0100 | STORE_LOCAL            L6 = $"rx"
+0104 | STORE_LOCAL            L7 = L1['fnpv']
+0115 | STORE_LOCAL            L8 = L1['fnpb']
+0126 | STORE_LOCAL            L9 = 100
+0130 | STORE_LOCAL            L11 = []
+0133 | STORE_LOCAL            L12 = null
+0136 | MAKE_NAMED_CLOSURE     L13 = fn@140 skip→+155
+0295 | MAKE_NAMED_CLOSURE     L14 = fn@299 skip→+117
+0416 | MAKE_NAMED_CLOSURE     L15 = fn@420 skip→+57
+0477 | MAKE_NAMED_CLOSURE     L16 = fn@481 skip→+32
+0513 | MAKE_NAMED_CLOSURE     L17 = fn@517 skip→+126
+0643 | MAKE_NAMED_CLOSURE     L18 = fn@647 skip→+28
+0675 | PROP_SET               L1[$"sv"] = 0
+0682 | CALL_1                 L1[$"exec"](L18)
+0690 | PUSH_ACC
+0691 | PROP_SET               L1['sfe'] = pop()
+0700 | CALL_1                 L1[$"exec"](L13)
+0708 | PUSH_ACC
+0709 | PROP_SET               L1['gd'] = pop()
+
+========================================================================
+[4] 845 bytes
+========================================================================
+v1 | 10 strings | 9 closures
+0003 | LOAD_STRINGS           10 strings: ['webdriver', 'Object', 'keys', 'indexOf', 'done', 'value', 'Array', 'Symbol'...]
+0068 | STORE_LOCAL            L1 = 16
+0072 | STORE_LOCAL            L2 = 1
+0076 | STORE_LOCAL            L3 = (L0['navigator'] || {})
+0094 | STORE_LOCAL            L4 = (L0['document'] || {})
+0111 | MAKE_NAMED_CLOSURE     L5 = fn@115 skip→+19
+0134 | MAKE_NAMED_CLOSURE     L6 = fn@138 skip→+13
+0151 | MAKE_NAMED_CLOSURE     L7 = fn@155 skip→+47
+0202 | MAKE_NAMED_CLOSURE     L8 = fn@206 skip→+158
+0364 | MAKE_NAMED_CLOSURE     L9 = fn@368 skip→+32
+0400 | MAKE_NAMED_CLOSURE     L10 = fn@404 skip→+195
+0599 | MAKE_NAMED_CLOSURE     L11 = fn@603 skip→+35
+0638 | MAKE_NAMED_CLOSURE     L12 = fn@642 skip→+43
+0685 | STORE_LOCAL            L13 = [L12, L11, L10, L9, L8, L7, L6, L5]
+0705 | MAKE_NAMED_CLOSURE     L14 = fn@709 skip→+118
+0827 | CALL_2                 L0[$"rx"]['r'](L14, 'load')
+
+========================================================================
+[5] 615 bytes
+========================================================================
+v1 | 10 strings | 6 closures
+0003 | LOAD_STRINGS           10 strings: ['sfe', 'addEventListener', 'mousedown', 'mouseup', 'exec', 'removeEventListener', 'timeStamp', 'performance'...]
+0097 | STORE_LOCAL            L1 = 32
+0101 | STORE_LOCAL            L2 = 15
+0105 | STORE_LOCAL            L3 = {'capture': true, 'passive': true}
+0129 | STORE_LOCAL            L4 = 1000
+0134 | STORE_LOCAL            L5 = (L0['document'] || {})
+0151 | STORE_LOCAL            L6 = L0['Math']
+0162 | STORE_LOCAL            L7 = L0['rx']
+0171 | STORE_LOCAL            L8 = L0['setInterval']
+0189 | STORE_LOCAL            L9 = L0['clearInterval']
+0209 | STORE_LOCAL            L10 = true
+0212 | STORE_LOCAL            L11 = true
+0215 | STORE_LOCAL            L15 = 0
+0219 | STORE_LOCAL            L17 = []
+0222 | STORE_LOCAL            L18 = []
+0225 | MAKE_NAMED_CLOSURE     L19 = fn@229 skip→+102
+0331 | MAKE_NAMED_CLOSURE     L20 = fn@335 skip→+49
+0384 | MAKE_NAMED_CLOSURE     L21 = fn@388 skip→+36
+0424 | MAKE_NAMED_CLOSURE     L22 = fn@428 skip→+37
+0465 | MAKE_NAMED_CLOSURE     L23 = fn@469 skip→+22
+0491 | MAKE_NAMED_CLOSURE     L24 = fn@495 skip→+68
+0563 | CALL_1                 L7[$"exec"](L23)
+0571 | STORE_LOCAL            L12 = acc
+0574 | CALL_1                 L7[$"exec"](L24)
+0582 | STORE_LOCAL            L13 = acc
+0585 | CALL_2                 L7[$"r"](L20, 'load')
+0599 | CALL_2                 L7[$"r"](L22, 'unload')
+
+========================================================================
+[6] 936 bytes
+========================================================================
+v1 | 10 strings | 5 closures
+0003 | LOAD_STRINGS           10 strings: ['sa', 'concat', 'sfe', 'mousemove', 'exec', 'sab', 'ceil', 'push'...]
+0054 | STORE_LOCAL            L1 = 33
+0058 | STORE_LOCAL            L2 = 200
+0063 | STORE_LOCAL            L3 = 255
+0068 | STORE_LOCAL            L4 = {'capture': true, 'passive': true}
+0092 | STORE_LOCAL            L5 = 1000
+0097 | STORE_LOCAL            L6 = (L0['document'] || {})
+0114 | STORE_LOCAL            L7 = L0['Math']
+0125 | STORE_LOCAL            L8 = L0['rx']
+0134 | STORE_LOCAL            L9 = L0['setInterval']
+0152 | STORE_LOCAL            L10 = L0['clearInterval']
+0172 | STORE_LOCAL            L13 = true
+0175 | STORE_LOCAL            L14 = true
+0178 | STORE_LOCAL            L19 = 0
+0182 | STORE_LOCAL            L20 = []
+0185 | STORE_LOCAL            L21 = []
+0188 | STORE_LOCAL            L22 = []
+0191 | MAKE_NAMED_CLOSURE     L23 = fn@195 skip→+186
+0381 | MAKE_NAMED_CLOSURE     L24 = fn@385 skip→+52
+0437 | MAKE_NAMED_CLOSURE     L25 = fn@441 skip→+42
+0483 | MAKE_NAMED_CLOSURE     L26 = fn@487 skip→+53
+0540 | MAKE_NAMED_CLOSURE     L27 = fn@544 skip→+351
+0895 | CALL_1                 L8[$"exec"](L27)
+0903 | STORE_LOCAL            L11 = acc
+0906 | CALL_2                 L8[$"r"](L24, 'load')
+0920 | CALL_2                 L8[$"r"](L26, 'unload')
+
+========================================================================
+[7] 631 bytes
+========================================================================
+v1 | 5 strings | 5 closures
+0003 | LOAD_STRINGS           5 strings: ['rx', 'sfe', 'scroll', 'exec', 'r']
+0026 | STORE_LOCAL            L1 = 34
+0030 | STORE_LOCAL            L2 = 200
+0035 | STORE_LOCAL            L3 = 255
+0040 | STORE_LOCAL            L4 = {'capture': true, 'passive': true}
+0064 | STORE_LOCAL            L5 = 1000
+0069 | STORE_LOCAL            L6 = L0['Math']
+0080 | STORE_LOCAL            L7 = L0[$"rx"]
+0087 | STORE_LOCAL            L8 = L0['setInterval']
+0105 | STORE_LOCAL            L9 = L0['clearInterval']
+0125 | STORE_LOCAL            L10 = true
+0128 | STORE_LOCAL            L13 = true
+0131 | STORE_LOCAL            L17 = 0
+0135 | STORE_LOCAL            L18 = []
+0138 | STORE_LOCAL            L19 = []
+0141 | MAKE_NAMED_CLOSURE     L20 = fn@145 skip→+102
+0247 | MAKE_NAMED_CLOSURE     L21 = fn@251 skip→+52
+0303 | MAKE_NAMED_CLOSURE     L22 = fn@307 skip→+42
+0349 | MAKE_NAMED_CLOSURE     L23 = fn@353 skip→+43
+0396 | MAKE_NAMED_CLOSURE     L24 = fn@400 skip→+181
+0581 | CALL_1                 L0[$"rx"][$"exec"](L24)
+0592 | STORE_LOCAL            L11 = acc
+0595 | CALL_2                 L0[$"rx"][$"r"](L21, 'load')
+0612 | CALL_2                 L0[$"rx"][$"r"](L23, 'unload')
+
+========================================================================
+[8] 360 bytes
+========================================================================
+v1 | 4 strings | 1 closures
+0003 | LOAD_STRINGS           4 strings: ['rx', '|', 'parseInt', 'sfe']
+0023 | STORE_LOCAL            L1 = 35
+0027 | STORE_LOCAL            L2 = 'rx-pnt'
+0037 | STORE_LOCAL            L3 = 600
+0042 | STORE_LOCAL            L4 = L0[$"rx"]
+0049 | STORE_LOCAL            L5 = L0['localStorage']
+0068 | MAKE_NAMED_CLOSURE     L6 = fn@72 skip→+273
+0345 | CALL_2                 L4['r'](L6, 'load')
+
+========================================================================
+[9] 319 bytes
+========================================================================
+v1 | 2 strings | 1 closures
+0003 | LOAD_STRINGS           2 strings: ['rx', 'sfe']
+0012 | STORE_LOCAL            L1 = 48
+0016 | STORE_LOCAL            L2 = L0[$"rx"]
+0023 | STORE_LOCAL            L3 = L0[$"rx"]['ef16']
+0037 | MAKE_NAMED_CLOSURE     L4 = fn@41 skip→+260
+0301 | CALL_2                 L0[$"rx"]['r'](L4, 'load')
+
+========================================================================
+[10] 1026 bytes
+========================================================================
+v1 | 18 strings | 6 closures
+0003 | LOAD_STRINGS           18 strings: ['rx', 'M', 'weights', 'length', 'bias', 'forward', 'gamma', 'slice'...]
+0118 | STORE_LOCAL            L1 = L0['Math']
+0129 | STORE_LOCAL            L2 = L0[$"rx"]
+0136 | STORE_LOCAL            L3 = (L2['c'] || {})
+0146 | STORE_LOCAL            L4 = L0[$"rx"][$"M"]
+0156 | MAKE_NAMED_CLOSURE     L5 = fn@160 skip→+66
+0226 | MAKE_NAMED_CLOSURE     L6 = fn@230 skip→+199
+0429 | MAKE_NAMED_CLOSURE     L7 = fn@433 skip→+24
+0457 | MAKE_NAMED_CLOSURE     L8 = fn@461 skip→+24
+0485 | MAKE_NAMED_CLOSURE     L9 = fn@489 skip→+224
+0713 | MAKE_NAMED_CLOSURE     L10 = fn@717 skip→+215
+0932 | PROP_SET               L2[$"M"] = L4
+0939 | PROP_SET               L2['ML'] = L9
+0948 | PROP_SET               L9['specs'] = L10
+0960 | JMP_FALSE              if !(L3['DEBUG']) →+53
+0973 | PROP_SET               L9['Dense'] = L5
+0985 | PROP_SET               L9['BatchNorm'] = L6
+1001 | PROP_SET               L9['ReLU'] = L7
+1012 | PROP_SET               L9['Sigmoid'] = L8
+
+========================================================================
+[11] 2875 bytes
+========================================================================
+v1 | 13 strings | 3 closures
+0003 | LOAD_STRINGS           13 strings: ['id', 'features', 'done', 'value', 'model', 'type', 'dense', 'weights'...]
+0084 | STORE_LOCAL            L1 = L0['rx']
+0093 | STORE_LOCAL            L2 = (L1['c'] || {})
+0103 | STORE_LOCAL            L3 = 64
+0107 | STORE_LOCAL            L4 = 1100
+0112 | STORE_LOCAL            L5 = null
+0115 | STORE_LOCAL            L6 = ['sc_s', 'sc_m', 'sc_c', 'ms_s', 'ms_m', 'ms_c', 'ma_s', 'ma_m', ...+23]
+0301 | MAKE_CLOSURE           fn@304 skip→+46
+0350 | PUSH_ACC
+0351 | CALL_1                 L1['ML']['specs']({'layers': [{$"type": 'sigmoid'}, {$"bias": [-0.5526], $"weights": F[16], $"type": $"dense"}, {$"type": $"relu"}, {$"epsilon": 0.0010, $"weights": [0.0009, 0.0009, 0.0013, 0.0005, 0.0008, 0.0009, 0.0017, 0.0015, ...+56], $"type": $"batchnorm"}, {$"bias": [3.2538, 3.3813, 3.3859, 3.4833, 2.1993, 3.1210, 2.9207, 3.5262, ...+8], $"weights": F[256], $"type": $"dense"}, {$"type": $"relu"}, {$"epsilon": 0.0010, $"weights": [0.0084, 0.0076, 0.0036, 0.0132, 0.0085, 0.0048, 0.0127, 0.0110, ...+56], $"type": $"batchnorm"}, {$"bias": [0.0063, -0.0140, 0.0089, -0.0028, -0.0020, -0.0081, -0.0065, 0.0108, ...+8], $"weights": F[496], $"type": $"dense"}], 'featureNorms': [517.6075, 259.0503, 2000, 0, 0, 519.5626, 256.8917, 2000, ...+147]})
+2614 | PUSH_ACC
+2615 | EVAL                   {$"model": pop(), $"features": pop(), $"id": 0}
+2628 | PUSH_ACC
+2629 | EVAL                   [pop()]
+2633 | STORE_LOCAL            L7 = acc
+2636 | MAKE_NAMED_CLOSURE     L8 = fn@2640 skip→+167
+2807 | MAKE_NAMED_CLOSURE     L9 = fn@2811 skip→+23
+2834 | CALL_2                 L1['r'](L9, 'load')
+2849 | JMP_FALSE              if !(L2['DEBUG']) →+13
+2862 | PROP_SET               L1['__mdls'] = L7
+
+========================================================================
+[12] 673 bytes
+========================================================================
+v1 | 13 strings | 6 closures
+0003 | LOAD_STRINGS           13 strings: ['Math', 'removeEventListener', 'mousemove', 'click', 'scroll', 'tag', 'rx', 'count'...]
+0112 | STORE_LOCAL            L1 = (L0['document'] || {})
+0129 | STORE_LOCAL            L2 = (L0['ue'] || {})
+0140 | STORE_LOCAL            L3 = L0['uex']
+0150 | STORE_LOCAL            L4 = L0[$"Math"]['sqrt']
+0164 | STORE_LOCAL            L5 = L0[$"Math"]['pow']
+0177 | STORE_LOCAL            L6 = L0[$"Math"]['abs']
+0190 | STORE_LOCAL            L7 = {'passive': true, 'capture': true}
+0214 | STORE_LOCAL            L8 = 100
+0218 | STORE_LOCAL            L9 = 100
+0222 | STORE_LOCAL            L10 = null
+0225 | STORE_LOCAL            L11 = null
+0228 | STORE_LOCAL            L12 = null
+0231 | STORE_LOCAL            L13 = null
+0234 | STORE_LOCAL            L14 = null
+0237 | STORE_LOCAL            L15 = null
+0240 | STORE_LOCAL            L16 = 0
+0244 | STORE_LOCAL            L17 = 0
+0248 | MAKE_NAMED_CLOSURE     L18 = fn@252 skip→+41
+0293 | MAKE_NAMED_CLOSURE     L19 = fn@297 skip→+101
+0398 | MAKE_NAMED_CLOSURE     L20 = fn@402 skip→+26
+0428 | MAKE_NAMED_CLOSURE     L21 = fn@432 skip→+86
+0518 | MAKE_NAMED_CLOSURE     L22 = fn@522 skip→+46
+0568 | MAKE_NAMED_CLOSURE     L23 = fn@572 skip→+83
+0655 | CALL_2                 L0[$"rx"]['r'](L23, 'load')
+
+========================================================================
+[13] 304 bytes
+========================================================================
+v1 | 2 strings | 3 closures
+0003 | LOAD_STRINGS           2 strings: ['tag', 'rx']
+0012 | STORE_LOCAL            L1 = (L0['document'] || {})
+0029 | STORE_LOCAL            L2 = (L0['ue'] || {})
+0040 | STORE_LOCAL            L3 = L0['uex']
+0050 | MAKE_NAMED_CLOSURE     L4 = fn@54 skip→+79
+0133 | MAKE_NAMED_CLOSURE     L5 = fn@137 skip→+63
+0200 | MAKE_NAMED_CLOSURE     L6 = fn@204 skip→+82
+0286 | CALL_2                 L0[$"rx"]['r'](L6, 'load')
+
+========================================================================
+[14] 1193 bytes
+========================================================================
+v1 | 11 strings | 7 closures
+0003 | LOAD_STRINGS           11 strings: ['rx', 'RegExp', 'cookie', 'length', 'floor', 'cssRules', 'undefined', 'rules'...]
+0083 | STORE_LOCAL            L1 = L0['Math']
+0094 | STORE_LOCAL            L2 = L0[$"rx"]
+0101 | STORE_LOCAL            L3 = (L2['c'] || {})
+0111 | STORE_LOCAL            L4 = L0['document']
+0126 | STORE_LOCAL            L5 = L0['setInterval']
+0144 | STORE_LOCAL            L6 = L0['clearInterval']
+0164 | STORE_LOCAL            L7 = L0['setTimeout']
+0181 | NEW_1                  new L0[$"RegExp"]('^pplx-agent(?:-[0-9]+_[0-9]+)?-overlay(?:-(?:base|-stop-butt')
+0255 | STORE_LOCAL            L8 = acc
+0258 | NEW_2                  new L0[$"RegExp"]('i', 'pplx-agent(?:-[0-9]+_[0-9]+)?-overlay(?:-(?:base|stop-button')
+0332 | STORE_LOCAL            L9 = acc
+0335 | STORE_LOCAL            L10 = 'amzn-ctxv-id'
+0351 | STORE_LOCAL            L11 = 'amzn-css-id'
+0366 | STORE_LOCAL            L12 = (L3['cd_ri'] || 2000)
+0382 | STORE_LOCAL            L13 = (L3['cd_sc'] || 120000)
+0399 | MAKE_NAMED_CLOSURE     L15 = fn@403 skip→+82
+0485 | MAKE_NAMED_CLOSURE     L16 = fn@489 skip→+58
+0547 | MAKE_NAMED_CLOSURE     L17 = fn@551 skip→+184
+0735 | MAKE_NAMED_CLOSURE     L18 = fn@739 skip→+48
+0787 | MAKE_NAMED_CLOSURE     L19 = fn@791 skip→+336
+1127 | MAKE_NAMED_CLOSURE     L20 = fn@1131 skip→+12
+1143 | MAKE_NAMED_CLOSURE     L21 = fn@1147 skip→+28
+1175 | CALL_2                 L0[$"rx"]['r'](L21, 'load')
+
+-e 
+
+
+=== Authentication_required.html ===
+0 payloads
+
+-e 
+
+
+=== Your_Payments.html ===
+15 payloads
+
+========================================================================
+[0] 1344 bytes
+========================================================================
+v1 | 27 strings | 8 closures
+0003 | LOAD_STRINGS           27 strings: ['rx', 'Math', 'imul', 'done', 'value', 'length', 'then', 'oncomplete'...]
+0175 | STORE_LOCAL            L1 = L0[$"rx"]
+0182 | STORE_LOCAL            L2 = (L1['c'] || {})
+0192 | STORE_LOCAL            L3 = (L0['msCrypto'] || L0['crypto'])
+0219 | MAKE_NAMED_CLOSURE     L7 = fn@223 skip→+36
+0259 | MAKE_NAMED_CLOSURE     L8 = fn@263 skip→+135
+0398 | MAKE_NAMED_CLOSURE     L9 = fn@402 skip→+27
+0429 | MAKE_NAMED_CLOSURE     L10 = fn@433 skip→+190
+0623 | MAKE_NAMED_CLOSURE     L11 = fn@627 skip→+71
+0698 | MAKE_NAMED_CLOSURE     L12 = fn@702 skip→+148
+0850 | MAKE_NAMED_CLOSURE     L13 = fn@854 skip→+121
+0975 | MAKE_NAMED_CLOSURE     L14 = fn@979 skip→+263
+1242 | CALL_1                 L1[$"exec"](L12)
+1250 | PUSH_ACC
+1251 | PROP_SET               L1['ep'] = pop()
+1259 | CALL_1                 L1[$"exec"](L13)
+1267 | PUSH_ACC
+1268 | PROP_SET               L1['ep4'] = pop()
+1277 | CALL_1                 L1[$"exec"](L10)
+1285 | PUSH_ACC
+1286 | PROP_SET               L1['e4'] = pop()
+1294 | CALL_1                 L1[$"exec"](L8)
+1302 | PUSH_ACC
+1303 | PROP_SET               L1['h'] = pop()
+1310 | JMP_FALSE              if !((L1[$"rid"] && L1[$"sid"])) →+20
+1324 | CALL_1                 L1[$"exec"](L14)
+1332 | CALL_2                 acc(L1[$"sid"], L1[$"rid"])
+
+========================================================================
+[1] 871 bytes
+========================================================================
+v1 | 7 strings | 7 closures
+0003 | LOAD_STRINGS           7 strings: ['rx', 'done', 'value', 'length', 'pow', 'floor', 'round']
+0042 | STORE_LOCAL            L1 = L0[$"rx"]['exec']
+0056 | STORE_LOCAL            L2 = L0['Math']
+0067 | STORE_LOCAL            L3 = L0['Number']
+0080 | MAKE_NAMED_CLOSURE     L4 = fn@84 skip→+28
+0112 | MAKE_NAMED_CLOSURE     L5 = fn@116 skip→+16
+0132 | MAKE_NAMED_CLOSURE     L6 = fn@136 skip→+66
+0202 | MAKE_NAMED_CLOSURE     L7 = fn@206 skip→+78
+0284 | MAKE_NAMED_CLOSURE     L8 = fn@288 skip→+64
+0352 | MAKE_NAMED_CLOSURE     L9 = fn@356 skip→+240
+0596 | MAKE_NAMED_CLOSURE     L10 = fn@600 skip→+141
+0741 | CALL_1                 L1(L7)
+0746 | PUSH_ACC
+0747 | PROP_SET               L0[$"rx"]['sa'] = pop()
+0758 | CALL_1                 L1(L8)
+0763 | PUSH_ACC
+0764 | PROP_SET               L0[$"rx"]['sab'] = pop()
+0776 | CALL_1                 L1(L9)
+0781 | PUSH_ACC
+0782 | PROP_SET               L0[$"rx"]['ef16'] = pop()
+0795 | CALL_1                 L1(L10)
+0800 | PUSH_ACC
+0801 | PROP_SET               L0[$"rx"]['df16'] = pop()
+0814 | CALL_1                 L1(L4)
+0819 | PUSH_ACC
+0820 | PROP_SET               L0[$"rx"]['asum'] = pop()
+0833 | CALL_1                 L1(L5)
+0838 | PUSH_ACC
+0839 | PROP_SET               L0[$"rx"]['aavg'] = pop()
+0852 | CALL_1                 L1(L6)
+0857 | PUSH_ACC
+0858 | PROP_SET               L0[$"rx"]['astd'] = pop()
+
+========================================================================
+[2] 194 bytes
+========================================================================
+v1 | 1 strings | 1 closures
+0003 | LOAD_STRINGS           1 strings: ['rx']
+0008 | STORE_LOCAL            L1 = '<NONE>'
+0018 | STORE_LOCAL            L2 = 0
+0022 | MAKE_NAMED_CLOSURE     L3 = fn@26 skip→+74
+0100 | CALL_1                 L0[$"rx"]['exec'](L3)
+0115 | CALL_0                 acc()
+0117 | STORE_LOCAL            L4 = acc
+0120 | PROP_SET               L0[$"rx"]['fnp'] = L4
+0133 | PROP_SET               L0[$"rx"]['fnpb'] = [(L4 & 255), ((L4 >>> 8) & 255), ((L4 >>> 16) & 255), ((L4 >>> 24) & 255)]
+0180 | PROP_SET               L0[$"rx"]['fnpv'] = L2
+
+========================================================================
+[3] 717 bytes
+========================================================================
+v1 | 6 strings | 6 closures
+0003 | LOAD_STRINGS           6 strings: ['rx', 'exec', 'slice', 'e4', 'ef', 'sv']
+0028 | STORE_LOCAL            L1 = L0[$"rx"]
+0035 | STORE_LOCAL            L2 = L0['JSON']
+0046 | STORE_LOCAL            L3 = L0['Math']
+0057 | STORE_LOCAL            L4 = L0['localStorage']
+0076 | STORE_LOCAL            L5 = L0['Number']['isFinite']
+0100 | STORE_LOCAL            L6 = $"rx"
+0104 | STORE_LOCAL            L7 = L1['fnpv']
+0115 | STORE_LOCAL            L8 = L1['fnpb']
+0126 | STORE_LOCAL            L9 = 100
+0130 | STORE_LOCAL            L11 = []
+0133 | STORE_LOCAL            L12 = null
+0136 | MAKE_NAMED_CLOSURE     L13 = fn@140 skip→+155
+0295 | MAKE_NAMED_CLOSURE     L14 = fn@299 skip→+117
+0416 | MAKE_NAMED_CLOSURE     L15 = fn@420 skip→+57
+0477 | MAKE_NAMED_CLOSURE     L16 = fn@481 skip→+32
+0513 | MAKE_NAMED_CLOSURE     L17 = fn@517 skip→+126
+0643 | MAKE_NAMED_CLOSURE     L18 = fn@647 skip→+28
+0675 | PROP_SET               L1[$"sv"] = 0
+0682 | CALL_1                 L1[$"exec"](L18)
+0690 | PUSH_ACC
+0691 | PROP_SET               L1['sfe'] = pop()
+0700 | CALL_1                 L1[$"exec"](L13)
+0708 | PUSH_ACC
+0709 | PROP_SET               L1['gd'] = pop()
+
+========================================================================
+[4] 845 bytes
+========================================================================
+v1 | 10 strings | 9 closures
+0003 | LOAD_STRINGS           10 strings: ['webdriver', 'Object', 'keys', 'indexOf', 'done', 'value', 'Array', 'Symbol'...]
+0068 | STORE_LOCAL            L1 = 16
+0072 | STORE_LOCAL            L2 = 1
+0076 | STORE_LOCAL            L3 = (L0['navigator'] || {})
+0094 | STORE_LOCAL            L4 = (L0['document'] || {})
+0111 | MAKE_NAMED_CLOSURE     L5 = fn@115 skip→+19
+0134 | MAKE_NAMED_CLOSURE     L6 = fn@138 skip→+13
+0151 | MAKE_NAMED_CLOSURE     L7 = fn@155 skip→+47
+0202 | MAKE_NAMED_CLOSURE     L8 = fn@206 skip→+158
+0364 | MAKE_NAMED_CLOSURE     L9 = fn@368 skip→+32
+0400 | MAKE_NAMED_CLOSURE     L10 = fn@404 skip→+195
+0599 | MAKE_NAMED_CLOSURE     L11 = fn@603 skip→+35
+0638 | MAKE_NAMED_CLOSURE     L12 = fn@642 skip→+43
+0685 | STORE_LOCAL            L13 = [L12, L11, L10, L9, L8, L7, L6, L5]
+0705 | MAKE_NAMED_CLOSURE     L14 = fn@709 skip→+118
+0827 | CALL_2                 L0[$"rx"]['r'](L14, 'load')
+
+========================================================================
+[5] 615 bytes
+========================================================================
+v1 | 10 strings | 6 closures
+0003 | LOAD_STRINGS           10 strings: ['sfe', 'addEventListener', 'mousedown', 'mouseup', 'exec', 'removeEventListener', 'timeStamp', 'performance'...]
+0097 | STORE_LOCAL            L1 = 32
+0101 | STORE_LOCAL            L2 = 15
+0105 | STORE_LOCAL            L3 = {'capture': true, 'passive': true}
+0129 | STORE_LOCAL            L4 = 1000
+0134 | STORE_LOCAL            L5 = (L0['document'] || {})
+0151 | STORE_LOCAL            L6 = L0['Math']
+0162 | STORE_LOCAL            L7 = L0['rx']
+0171 | STORE_LOCAL            L8 = L0['setInterval']
+0189 | STORE_LOCAL            L9 = L0['clearInterval']
+0209 | STORE_LOCAL            L10 = true
+0212 | STORE_LOCAL            L11 = true
+0215 | STORE_LOCAL            L15 = 0
+0219 | STORE_LOCAL            L17 = []
+0222 | STORE_LOCAL            L18 = []
+0225 | MAKE_NAMED_CLOSURE     L19 = fn@229 skip→+102
+0331 | MAKE_NAMED_CLOSURE     L20 = fn@335 skip→+49
+0384 | MAKE_NAMED_CLOSURE     L21 = fn@388 skip→+36
+0424 | MAKE_NAMED_CLOSURE     L22 = fn@428 skip→+37
+0465 | MAKE_NAMED_CLOSURE     L23 = fn@469 skip→+22
+0491 | MAKE_NAMED_CLOSURE     L24 = fn@495 skip→+68
+0563 | CALL_1                 L7[$"exec"](L23)
+0571 | STORE_LOCAL            L12 = acc
+0574 | CALL_1                 L7[$"exec"](L24)
+0582 | STORE_LOCAL            L13 = acc
+0585 | CALL_2                 L7[$"r"](L20, 'load')
+0599 | CALL_2                 L7[$"r"](L22, 'unload')
+
+========================================================================
+[6] 936 bytes
+========================================================================
+v1 | 10 strings | 5 closures
+0003 | LOAD_STRINGS           10 strings: ['sa', 'concat', 'sfe', 'mousemove', 'exec', 'sab', 'ceil', 'push'...]
+0054 | STORE_LOCAL            L1 = 33
+0058 | STORE_LOCAL            L2 = 200
+0063 | STORE_LOCAL            L3 = 255
+0068 | STORE_LOCAL            L4 = {'capture': true, 'passive': true}
+0092 | STORE_LOCAL            L5 = 1000
+0097 | STORE_LOCAL            L6 = (L0['document'] || {})
+0114 | STORE_LOCAL            L7 = L0['Math']
+0125 | STORE_LOCAL            L8 = L0['rx']
+0134 | STORE_LOCAL            L9 = L0['setInterval']
+0152 | STORE_LOCAL            L10 = L0['clearInterval']
+0172 | STORE_LOCAL            L13 = true
+0175 | STORE_LOCAL            L14 = true
+0178 | STORE_LOCAL            L19 = 0
+0182 | STORE_LOCAL            L20 = []
+0185 | STORE_LOCAL            L21 = []
+0188 | STORE_LOCAL            L22 = []
+0191 | MAKE_NAMED_CLOSURE     L23 = fn@195 skip→+186
+0381 | MAKE_NAMED_CLOSURE     L24 = fn@385 skip→+52
+0437 | MAKE_NAMED_CLOSURE     L25 = fn@441 skip→+42
+0483 | MAKE_NAMED_CLOSURE     L26 = fn@487 skip→+53
+0540 | MAKE_NAMED_CLOSURE     L27 = fn@544 skip→+351
+0895 | CALL_1                 L8[$"exec"](L27)
+0903 | STORE_LOCAL            L11 = acc
+0906 | CALL_2                 L8[$"r"](L24, 'load')
+0920 | CALL_2                 L8[$"r"](L26, 'unload')
+
+========================================================================
+[7] 631 bytes
+========================================================================
+v1 | 5 strings | 5 closures
+0003 | LOAD_STRINGS           5 strings: ['rx', 'sfe', 'scroll', 'exec', 'r']
+0026 | STORE_LOCAL            L1 = 34
+0030 | STORE_LOCAL            L2 = 200
+0035 | STORE_LOCAL            L3 = 255
+0040 | STORE_LOCAL            L4 = {'capture': true, 'passive': true}
+0064 | STORE_LOCAL            L5 = 1000
+0069 | STORE_LOCAL            L6 = L0['Math']
+0080 | STORE_LOCAL            L7 = L0[$"rx"]
+0087 | STORE_LOCAL            L8 = L0['setInterval']
+0105 | STORE_LOCAL            L9 = L0['clearInterval']
+0125 | STORE_LOCAL            L10 = true
+0128 | STORE_LOCAL            L13 = true
+0131 | STORE_LOCAL            L17 = 0
+0135 | STORE_LOCAL            L18 = []
+0138 | STORE_LOCAL            L19 = []
+0141 | MAKE_NAMED_CLOSURE     L20 = fn@145 skip→+102
+0247 | MAKE_NAMED_CLOSURE     L21 = fn@251 skip→+52
+0303 | MAKE_NAMED_CLOSURE     L22 = fn@307 skip→+42
+0349 | MAKE_NAMED_CLOSURE     L23 = fn@353 skip→+43
+0396 | MAKE_NAMED_CLOSURE     L24 = fn@400 skip→+181
+0581 | CALL_1                 L0[$"rx"][$"exec"](L24)
+0592 | STORE_LOCAL            L11 = acc
+0595 | CALL_2                 L0[$"rx"][$"r"](L21, 'load')
+0612 | CALL_2                 L0[$"rx"][$"r"](L23, 'unload')
+
+========================================================================
+[8] 360 bytes
+========================================================================
+v1 | 4 strings | 1 closures
+0003 | LOAD_STRINGS           4 strings: ['rx', '|', 'parseInt', 'sfe']
+0023 | STORE_LOCAL            L1 = 35
+0027 | STORE_LOCAL            L2 = 'rx-pnt'
+0037 | STORE_LOCAL            L3 = 600
+0042 | STORE_LOCAL            L4 = L0[$"rx"]
+0049 | STORE_LOCAL            L5 = L0['localStorage']
+0068 | MAKE_NAMED_CLOSURE     L6 = fn@72 skip→+273
+0345 | CALL_2                 L4['r'](L6, 'load')
+
+========================================================================
+[9] 319 bytes
+========================================================================
+v1 | 2 strings | 1 closures
+0003 | LOAD_STRINGS           2 strings: ['rx', 'sfe']
+0012 | STORE_LOCAL            L1 = 48
+0016 | STORE_LOCAL            L2 = L0[$"rx"]
+0023 | STORE_LOCAL            L3 = L0[$"rx"]['ef16']
+0037 | MAKE_NAMED_CLOSURE     L4 = fn@41 skip→+260
+0301 | CALL_2                 L0[$"rx"]['r'](L4, 'load')
+
+========================================================================
+[10] 1026 bytes
+========================================================================
+v1 | 18 strings | 6 closures
+0003 | LOAD_STRINGS           18 strings: ['rx', 'M', 'weights', 'length', 'bias', 'forward', 'gamma', 'slice'...]
+0118 | STORE_LOCAL            L1 = L0['Math']
+0129 | STORE_LOCAL            L2 = L0[$"rx"]
+0136 | STORE_LOCAL            L3 = (L2['c'] || {})
+0146 | STORE_LOCAL            L4 = L0[$"rx"][$"M"]
+0156 | MAKE_NAMED_CLOSURE     L5 = fn@160 skip→+66
+0226 | MAKE_NAMED_CLOSURE     L6 = fn@230 skip→+199
+0429 | MAKE_NAMED_CLOSURE     L7 = fn@433 skip→+24
+0457 | MAKE_NAMED_CLOSURE     L8 = fn@461 skip→+24
+0485 | MAKE_NAMED_CLOSURE     L9 = fn@489 skip→+224
+0713 | MAKE_NAMED_CLOSURE     L10 = fn@717 skip→+215
+0932 | PROP_SET               L2[$"M"] = L4
+0939 | PROP_SET               L2['ML'] = L9
+0948 | PROP_SET               L9['specs'] = L10
+0960 | JMP_FALSE              if !(L3['DEBUG']) →+53
+0973 | PROP_SET               L9['Dense'] = L5
+0985 | PROP_SET               L9['BatchNorm'] = L6
+1001 | PROP_SET               L9['ReLU'] = L7
+1012 | PROP_SET               L9['Sigmoid'] = L8
+
+========================================================================
+[11] 2875 bytes
+========================================================================
+v1 | 13 strings | 3 closures
+0003 | LOAD_STRINGS           13 strings: ['id', 'features', 'done', 'value', 'model', 'type', 'dense', 'weights'...]
+0084 | STORE_LOCAL            L1 = L0['rx']
+0093 | STORE_LOCAL            L2 = (L1['c'] || {})
+0103 | STORE_LOCAL            L3 = 64
+0107 | STORE_LOCAL            L4 = 1100
+0112 | STORE_LOCAL            L5 = null
+0115 | STORE_LOCAL            L6 = ['sc_s', 'sc_m', 'sc_c', 'ms_s', 'ms_m', 'ms_c', 'ma_s', 'ma_m', ...+23]
+0301 | MAKE_CLOSURE           fn@304 skip→+46
+0350 | PUSH_ACC
+0351 | CALL_1                 L1['ML']['specs']({'layers': [{$"type": 'sigmoid'}, {$"bias": [-0.5526], $"weights": F[16], $"type": $"dense"}, {$"type": $"relu"}, {$"epsilon": 0.0010, $"weights": [0.0009, 0.0009, 0.0013, 0.0005, 0.0008, 0.0009, 0.0017, 0.0015, ...+56], $"type": $"batchnorm"}, {$"bias": [3.2538, 3.3813, 3.3859, 3.4833, 2.1993, 3.1210, 2.9207, 3.5262, ...+8], $"weights": F[256], $"type": $"dense"}, {$"type": $"relu"}, {$"epsilon": 0.0010, $"weights": [0.0084, 0.0076, 0.0036, 0.0132, 0.0085, 0.0048, 0.0127, 0.0110, ...+56], $"type": $"batchnorm"}, {$"bias": [0.0063, -0.0140, 0.0089, -0.0028, -0.0020, -0.0081, -0.0065, 0.0108, ...+8], $"weights": F[496], $"type": $"dense"}], 'featureNorms': [517.6075, 259.0503, 2000, 0, 0, 519.5626, 256.8917, 2000, ...+147]})
+2614 | PUSH_ACC
+2615 | EVAL                   {$"model": pop(), $"features": pop(), $"id": 0}
+2628 | PUSH_ACC
+2629 | EVAL                   [pop()]
+2633 | STORE_LOCAL            L7 = acc
+2636 | MAKE_NAMED_CLOSURE     L8 = fn@2640 skip→+167
+2807 | MAKE_NAMED_CLOSURE     L9 = fn@2811 skip→+23
+2834 | CALL_2                 L1['r'](L9, 'load')
+2849 | JMP_FALSE              if !(L2['DEBUG']) →+13
+2862 | PROP_SET               L1['__mdls'] = L7
+
+========================================================================
+[12] 673 bytes
+========================================================================
+v1 | 13 strings | 6 closures
+0003 | LOAD_STRINGS           13 strings: ['Math', 'removeEventListener', 'mousemove', 'click', 'scroll', 'tag', 'rx', 'count'...]
+0112 | STORE_LOCAL            L1 = (L0['document'] || {})
+0129 | STORE_LOCAL            L2 = (L0['ue'] || {})
+0140 | STORE_LOCAL            L3 = L0['uex']
+0150 | STORE_LOCAL            L4 = L0[$"Math"]['sqrt']
+0164 | STORE_LOCAL            L5 = L0[$"Math"]['pow']
+0177 | STORE_LOCAL            L6 = L0[$"Math"]['abs']
+0190 | STORE_LOCAL            L7 = {'passive': true, 'capture': true}
+0214 | STORE_LOCAL            L8 = 100
+0218 | STORE_LOCAL            L9 = 100
+0222 | STORE_LOCAL            L10 = null
+0225 | STORE_LOCAL            L11 = null
+0228 | STORE_LOCAL            L12 = null
+0231 | STORE_LOCAL            L13 = null
+0234 | STORE_LOCAL            L14 = null
+0237 | STORE_LOCAL            L15 = null
+0240 | STORE_LOCAL            L16 = 0
+0244 | STORE_LOCAL            L17 = 0
+0248 | MAKE_NAMED_CLOSURE     L18 = fn@252 skip→+41
+0293 | MAKE_NAMED_CLOSURE     L19 = fn@297 skip→+101
+0398 | MAKE_NAMED_CLOSURE     L20 = fn@402 skip→+26
+0428 | MAKE_NAMED_CLOSURE     L21 = fn@432 skip→+86
+0518 | MAKE_NAMED_CLOSURE     L22 = fn@522 skip→+46
+0568 | MAKE_NAMED_CLOSURE     L23 = fn@572 skip→+83
+0655 | CALL_2                 L0[$"rx"]['r'](L23, 'load')
+
+========================================================================
+[13] 304 bytes
+========================================================================
+v1 | 2 strings | 3 closures
+0003 | LOAD_STRINGS           2 strings: ['tag', 'rx']
+0012 | STORE_LOCAL            L1 = (L0['document'] || {})
+0029 | STORE_LOCAL            L2 = (L0['ue'] || {})
+0040 | STORE_LOCAL            L3 = L0['uex']
+0050 | MAKE_NAMED_CLOSURE     L4 = fn@54 skip→+79
+0133 | MAKE_NAMED_CLOSURE     L5 = fn@137 skip→+63
+0200 | MAKE_NAMED_CLOSURE     L6 = fn@204 skip→+82
+0286 | CALL_2                 L0[$"rx"]['r'](L6, 'load')
+
+========================================================================
+[14] 1193 bytes
+========================================================================
+v1 | 11 strings | 7 closures
+0003 | LOAD_STRINGS           11 strings: ['rx', 'RegExp', 'cookie', 'length', 'floor', 'cssRules', 'undefined', 'rules'...]
+0083 | STORE_LOCAL            L1 = L0['Math']
+0094 | STORE_LOCAL            L2 = L0[$"rx"]
+0101 | STORE_LOCAL            L3 = (L2['c'] || {})
+0111 | STORE_LOCAL            L4 = L0['document']
+0126 | STORE_LOCAL            L5 = L0['setInterval']
+0144 | STORE_LOCAL            L6 = L0['clearInterval']
+0164 | STORE_LOCAL            L7 = L0['setTimeout']
+0181 | NEW_1                  new L0[$"RegExp"]('^pplx-agent(?:-[0-9]+_[0-9]+)?-overlay(?:-(?:base|-stop-butt')
+0255 | STORE_LOCAL            L8 = acc
+0258 | NEW_2                  new L0[$"RegExp"]('i', 'pplx-agent(?:-[0-9]+_[0-9]+)?-overlay(?:-(?:base|stop-button')
+0332 | STORE_LOCAL            L9 = acc
+0335 | STORE_LOCAL            L10 = 'amzn-ctxv-id'
+0351 | STORE_LOCAL            L11 = 'amzn-css-id'
+0366 | STORE_LOCAL            L12 = (L3['cd_ri'] || 2000)
+0382 | STORE_LOCAL            L13 = (L3['cd_sc'] || 120000)
+0399 | MAKE_NAMED_CLOSURE     L15 = fn@403 skip→+82
+0485 | MAKE_NAMED_CLOSURE     L16 = fn@489 skip→+58
+0547 | MAKE_NAMED_CLOSURE     L17 = fn@551 skip→+184
+0735 | MAKE_NAMED_CLOSURE     L18 = fn@739 skip→+48
+0787 | MAKE_NAMED_CLOSURE     L19 = fn@791 skip→+336
+1127 | MAKE_NAMED_CLOSURE     L20 = fn@1131 skip→+12
+1143 | MAKE_NAMED_CLOSURE     L21 = fn@1147 skip→+28
+1175 | CALL_2                 L0[$"rx"]['r'](L21, 'load')
+
+-e 
+
+
